@@ -35,3 +35,6 @@ jtest-ft-cov/
 
 # IntelliJ
 out/
+
+# Custom Apache deploy
+deploy/
