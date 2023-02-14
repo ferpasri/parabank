@@ -25,6 +25,7 @@ import com.parasoft.parabank.web.ViewUtil;
 @RequestMapping("/login.htm")
 public class LoginController extends AbstractBankController {
     private static final Logger log = LoggerFactory.getLogger(LoginController.class);
+    private static final org.apache.logging.log4j.Logger custom_log = org.apache.logging.log4j.LogManager.getLogger();
 
     @Resource(name = "accessModeController")
     private AccessModeController accessModeController;
@@ -58,6 +59,11 @@ public class LoginController extends AbstractBankController {
 
             if (customer == null) {
                 log.warn("Invalid login attempt with username = " + username + " and password = " + password);
+
+                // Create a custom log invalid login message
+                String msg = "Invalid login attempt with username = " + username + " and password = " + password;
+                custom_log.log(org.apache.logging.log4j.Level.forName("CUSTOM", 1), msg);
+
                 return ViewUtil.createErrorView("error.invalid.username.or.password");
             }
 

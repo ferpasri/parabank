@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Configuration>
 <Configuration status="WARN" monitorInterval="30"  shutdownHook="disable">
+  <!-- Define a custom level -->
+  <CustomLevels>
+    <CustomLevel name="CUSTOM" intLevel="1" />
+  </CustomLevels>
   <Appenders>
     <Console name="Console" target="SYSTEM_OUT">
       <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
     </Console>
+    <!-- parabank/logs/custom_debug.log -->
+	<File name="MyFile" fileName="logs/custom_debug.log">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+    </File>
   </Appenders>
   <Loggers>
     <Logger name="com.parasoft" level="info" additivity="false">
       <AppenderRef ref="Console"/>
+    </Logger>
+    <Logger name="com.parasoft" level="fatal" additivity="false">
+      <AppenderRef ref="MyFile"/>
     </Logger>
     <Root level="error">
       <AppenderRef ref="Console"/>
