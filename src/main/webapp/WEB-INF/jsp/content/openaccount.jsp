@@ -24,7 +24,12 @@
     <h1 class="title"><fmt:message key="account.opened" /></h1>
     <p><fmt:message key="congratulations" /></p>
     <p><b><fmt:message key="new.account.number" />:</b> <a id="newAccountId" href="{{newAccountUrl}}">{{newAccountId}}</a></p>
+    <!-- Injected Failure: An empty div web element without child elements -->
+    <div id="someEmptyDiv"></div>
   </div>
+
+  <!-- Injected Failure: An empty form web element without child elements -->
+  <form id="someEmptyForm"></form>
 
   <div ng-if="showError">
     <h1 class="title"><fmt:message key="error.heading" /></h1>

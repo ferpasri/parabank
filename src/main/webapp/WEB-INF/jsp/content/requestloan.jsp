@@ -23,10 +23,8 @@
 			<tr>
 				<td align="right" width="40%"><b><fmt:message key="from.account.number" />:</b></td>
 				<td width="20%">
-				    <select id="fromAccountId" class="input" ng-init="loanRequest.fromAccountId = '${accounts[0]}'" ng-model="loanRequest.fromAccountId">
-                        <c:forEach items="${accounts}" var="account">
-                            <option value="${account}">${account}</option>
-                        </c:forEach>
+				    <!-- Injected Failure: Empty select dropdown element without account options -->
+				    <select id="fromAccountId" class="input" ng-model="loanRequest.fromAccountId">
 				    </select>
                 </td>
                 <td width="40%"></td>

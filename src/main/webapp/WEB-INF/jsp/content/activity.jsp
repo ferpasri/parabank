@@ -20,7 +20,8 @@
       </tr>
       <tr>
         <td align="right"><fmt:message key="account.available.balance" />:</td>
-        <td id="availableBalance">{{account.availableBalance | currency: "$" : 2 | commaLess}}</td>
+        <!-- Injected Failure: Decimal dollars number with more than 2 decimals -->
+        <td id="availableBalance">{{account.availableBalance | currency: "$" : 3 | commaLess}}</td>
       </tr>
     </table>
 

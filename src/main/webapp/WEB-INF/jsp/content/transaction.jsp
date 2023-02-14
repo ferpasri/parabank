@@ -23,4 +23,8 @@
     <td align="right"><b><fmt:message key="transaction.amount"/>:</b></td>
     <td><fmt:formatNumber type="currency" pattern="$0.00;-$0.00" value="${transaction.amount}"/></td>
   </tr>  
+  <tr>
+    <!-- Injected Failure: Decimal number with more than 2 decimals -->
+    <td id="customNumberBalance">1234.56789</td>
+  </tr>
 </table>

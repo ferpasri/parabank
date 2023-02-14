@@ -37,7 +37,8 @@
     <tr>
       <td align="right" width="30%"><b><fmt:message key="message"/>:</b></td>
       <td width="20%">
-        <form:textarea cols="85" rows="9" cssClass="input" path="message"/>
+        <!-- Injected Failure: It is impossible to write text because the Max Length of the textarea is set to 0 -->
+        <form:textarea cols="85" rows="9" maxlength="0" cssClass="input" path="message"/>
       </td>
       <td width="50%">
         <form:errors path="message" cssClass="error"/>

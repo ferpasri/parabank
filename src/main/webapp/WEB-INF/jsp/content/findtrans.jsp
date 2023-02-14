@@ -8,10 +8,14 @@
     <form ng-submit="submit()">
         <div>
             <b><fmt:message key="select.an.account"/></b>:
+            <!-- Injected Failure: The dropdown account options of this select element are not numerically sorted -->
             <select id="accountId" class="input" ng-init="criteria.accountId = '${accounts[0]}'" ng-model="criteria.accountId">
                 <c:forEach items="${accounts}" var="account">
                     <option value="${account}">${account}</option>
                 </c:forEach>
+                <!-- Injected Failure: Added values to force unsorted list -->
+                <option value="111">111</option>
+                <option value="111">222</option>
             </select>
             <errors path="accountId" class="error"/>
         </div>
