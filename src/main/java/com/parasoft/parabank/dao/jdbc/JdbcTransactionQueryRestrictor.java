@@ -17,6 +17,7 @@ import com.parasoft.parabank.domain.TransactionCriteria;
  */
 class JdbcTransactionQueryRestrictor {
     private static final Logger log = LoggerFactory.getLogger(JdbcTransactionQueryRestrictor.class);
+    private static final org.apache.logging.log4j.Logger custom_log = org.apache.logging.log4j.LogManager.getLogger();
 
     private String getActivityRestrictions(final TransactionCriteria criteria, final List<Object> params) {
         String restrictionsSql = getCommonActivityRestrictions(criteria, params);
@@ -105,6 +106,12 @@ class JdbcTransactionQueryRestrictor {
                 restrictionsSql = getAmountRestrictions(criteria, params);
                 break;
         }
+
+        // Fake 3 equal "queries" when user transfer funds
+        custom_log.log(org.apache.logging.log4j.Level.forName("CUSTOM", 1), restrictionsSql + ":" + params);
+        custom_log.log(org.apache.logging.log4j.Level.forName("CUSTOM", 1), restrictionsSql + ":" + params);
+        custom_log.log(org.apache.logging.log4j.Level.forName("CUSTOM", 1), restrictionsSql + ":" + params);
+
         return restrictionsSql;
     }
 }

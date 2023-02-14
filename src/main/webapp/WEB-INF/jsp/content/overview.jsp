@@ -24,6 +24,14 @@
           <td><b>{{totalBalance | currency: "$" : 2 | commaLess}}</b></td>
           <td>&nbsp;</td>
         </tr>
+
+        <!-- Injected Failure: Duplicated total entry in the table -->
+        <tr>
+          <td align="right"><b><fmt:message key="total" /></b></td>
+          <td><b>{{totalBalance | currency: "$" : 2 | commaLess}}</b></td>
+          <td>&nbsp;</td>
+        </tr>
+
       </tbody>
       <tfoot>
         <tr>

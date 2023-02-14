@@ -40,6 +40,21 @@
      <h1 class="title"><fmt:message key="error.heading" /></h1>
      <p class="error"><fmt:message key="error.internal" /></p>
    </div>
+   
+   <!-- Injected Failure: Download an empty file -->
+   <br/>
+   <button onclick = "downloadFile()"> Save Transfer Information </button>
+   <script>
+      const downloadFile = () => {
+         const link = document.createElement("a");
+         const content = "";
+         const file = new Blob([content], { type: 'text/plain' });
+         link.href = URL.createObjectURL(file);
+         link.download = "transfer_information.txt";
+         link.click();
+         URL.revokeObjectURL(link.href);
+      };
+   </script>
  
 </div>
 
