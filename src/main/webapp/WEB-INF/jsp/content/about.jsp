@@ -12,6 +12,10 @@
   <a href="http://www.parasoft.com/">www.parasoft.com</a> or call 888-305-0041
 </p>
 
+<br/>
+<p class="custom_pfx">Parabank key bookstore <a href="soatest.pfx">soatest.pfx</a><br></p>
+<br/>
+
 <!-- Injected Failure: A radio button input with only one value -->
 <form>
   <p>Please select your favorite testing tool:</p>
