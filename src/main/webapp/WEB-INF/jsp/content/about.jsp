@@ -23,7 +23,7 @@
 </form>
 
 <!-- Injected Failure: An alert with a suspicious message -->
-<div id="buttonsAlert" class="tabcontent">
+<!--<div id="buttonsAlert" class="tabcontent">
   <button id="good_alert" onclick="alertGoodMessage()">GoodAlert</button>
   <button id="suspicious_alert" onclick="alertSuspiciousMessage()">SuspiciousAlert</button>
 </div>
@@ -34,4 +34,4 @@ function alertGoodMessage() {
 function alertSuspiciousMessage() {
   prompt("Add your credentials in this Login field...");
 }
-</script>
+</script>-->

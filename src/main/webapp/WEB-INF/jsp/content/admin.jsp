@@ -4,6 +4,9 @@
 <h1 class="title">
 	<fmt:message key="administration" />
 </h1>
+<h3> Dear client, this page is not available </h3>
+<!-- Disable admin panel -->
+<!--
 <c:choose>
 	<c:when test="${not empty error}">
 		<p style="color:maroon;">
@@ -108,7 +111,6 @@
 				<a href="<c:url value="services/ParaBank?wsdl"/>">WSDL</a>&nbsp;|&nbsp;<a
 				href="<c:url value="services/bank?_wadl&_type=xml"/>">WADL</a>&nbsp;|&nbsp;<a
 				href="<c:url value="/api-docs/index.html"/>">SWAGGER</a>&nbsp;]</td>
-				<!-- Not ready yet |&nbsp;<a href="<c:url value="/raml/raml.api"/>">RAML</a>&nbsp; -->
 		</tr>
 		<tr>
 			<td align="right" width="30%"><b><fmt:message
@@ -211,3 +213,4 @@
 	<input type="submit" class="button" value="<fmt:message key="submit"/>">
 
 </form:form>
+-->

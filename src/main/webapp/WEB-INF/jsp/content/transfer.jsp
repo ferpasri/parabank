@@ -42,7 +42,7 @@
    </div>
    
    <!-- Injected Failure: Download an empty file -->
-   <br/>
+   <!--<br/>
    <button onclick = "downloadFile()"> Save Transfer Information </button>
    <script>
       const downloadFile = () => {
@@ -54,12 +54,14 @@
          link.click();
          URL.revokeObjectURL(link.href);
       };
-   </script>
+   </script>-->
  
 </div>
 
 <script>
-    var app = angular.module('TransferApp', []);
+	console.warn('Something went wrong loading TransferApp module!');
+	
+	var app = angular.module('TransferApp', []);
     app.controller('TransferCtrl', function($scope, $http) {
 
         $scope.showForm = true;
