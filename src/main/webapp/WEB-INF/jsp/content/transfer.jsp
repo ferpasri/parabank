@@ -42,7 +42,7 @@
    </div>
    
    <!-- Injected Failure: Download an empty file -->
-   <!--<br/>
+   <br/>
    <button onclick = "downloadFile()"> Save Transfer Information </button>
    <script>
       const downloadFile = () => {
@@ -54,7 +54,7 @@
          link.click();
          URL.revokeObjectURL(link.href);
       };
-   </script>-->
+   </script>
  
 </div>
 

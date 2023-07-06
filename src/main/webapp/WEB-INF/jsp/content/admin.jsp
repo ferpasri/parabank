@@ -5,6 +5,27 @@
 	<fmt:message key="administration" />
 </h1>
 <h3> Dear client, this page is not available </h3>
+
+  <div ng-if="showOverview">
+    <table id="accountTable" class="gradient-style">
+      <thead>
+        <tr>
+          <th><fmt:message key="account" /></th>
+          <th><fmt:message key="balance" /></th>
+          <th><fmt:message key="available.amount" /></th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- Injected Failure: Table with empty rows -->
+        <tr ng-repeat="account in accounts">
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
 <!-- Disable admin panel -->
 <!--
 <c:choose>

@@ -1,3 +1,8 @@
+# ParaBank Injected Failures version
+We have updated the ParaBank demo web application to inject some additional GUI failures and malfunctions.  
+
+Execute `custom_compile_and_deploy.bat` file in Windows to automatically compile and deploy ParaBank.  
+
 # Introduction
 The ParaBank demo web application and associated web services (SOAP and REST) from Parasoft.
 

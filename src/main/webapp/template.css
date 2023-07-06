@@ -221,6 +221,10 @@ hr {
 	color: #5F7A77;
 }
 
+#leftPanel ul li a.active {
+  background-color: #A1FFF9;
+}
+
 .input {
     width: 140px;
     border: 1px solid #EC972D;
@@ -328,6 +332,7 @@ input.button, button.button {
 	text-transform: uppercase;
 	padding: 46px 0 0 75px;
 	margin: 0 0 5px 0;
+	background-size: 300% auto; /* Injected Failure: Distort the background image size */
 }
 
 #rightPanel ul.services {
