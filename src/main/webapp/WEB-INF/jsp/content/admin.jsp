@@ -4,7 +4,8 @@
 <h1 class="title">
 	<fmt:message key="administration" />
 </h1>
-<h3> Dear client, this page is not available </h3>
+<!-- Injected Failure: Repeated text -->
+<h3> Dear client, client this page is not available </h3>
 
   <div ng-if="showOverview">
     <table id="accountTable" class="gradient-style">

@@ -17,7 +17,8 @@
       </td>
     </tr>
     <tr>
-      <td align="right" width="30%"><b><fmt:message key="email"/>:</b></td>
+      <!-- Injected Failure: HTML tag rendering -->
+      <td align="right" width="30%">&lt;b&gt;<fmt:message key="email"/>&lt;/b&gt;:</td>
       <td width="20%">
         <form:input cssClass="input" path="email"/>
       </td>

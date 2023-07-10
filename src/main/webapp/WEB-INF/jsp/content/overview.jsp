@@ -60,8 +60,12 @@
                 $scope.accounts = response.data;
                 $scope.totalBalance = computeTotalBalance($scope.accounts);
 
-                angular.forEach($scope.accounts, function(account) {
-                    account.availableBalance = getAvailableBalance(account);
+                // Injected Failure: Last account data is not loaded
+                var accountCount = $scope.accounts.length;
+                angular.forEach($scope.accounts, function(account, index) {
+                    if (index !== accountCount - 1) {
+                        account.availableBalance = getAvailableBalance(account);
+                    }
                 });
             })
             .catch(function (response){

@@ -77,9 +77,12 @@
 		  <br>
 		</form>
 	</div>
-	<div ng-if="showResult">
+	<div ng-if="showResult" ng-init="getCustomer()">
 		<h1 class="title"><fmt:message key="profile.updated"/></h1>
 		<p><fmt:message key="your.updated.address"/></p>
+		<!-- Injected Failure: Wrong Unicode Parsing -->
+		<p>{{buggyParseCustomerData(customer).firstName}}</p>
+		<p>{{buggyParseCustomerData(customer).lastName}}</p>
 	</div>
 
 	<div ng-if="showError">
@@ -104,6 +107,19 @@
                     showError(response);
                 });
         }
+ 
+        $scope.buggyParseCustomerData = function(customer) {
+            var hasSpecialCharacters = /[^\x00-\x7F]/.test(customer);
+            if (hasSpecialCharacters) {
+                // Replace special characters with "?"
+                customer = customer.replace(/[^\x00-\x7F]/g, "?");
+            }
+            try {
+                return JSON.parse(customer);
+            } catch (error) {
+                return {};
+            }
+        };
 
         $scope.submit = function() {
 			if(validate()){
