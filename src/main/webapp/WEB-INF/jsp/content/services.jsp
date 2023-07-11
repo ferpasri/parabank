@@ -70,7 +70,7 @@ Clients
 need to authenticate themselves using Username Token.<br>
       <br>
 username:soatest<br> <!-- adminbank -->
-password:soatest<br> <!-- qwerty123 -->
+password:1q2w3e<br> <!-- qwerty123 -->
       <br>
 Endpoint address:</span> <span class="value"><%= scheme%>://<%= hostname%><%= portStr%><%= contextPath%>/services/store-wss-01</span><br>
       <span class="field">WSDL :</span> <a

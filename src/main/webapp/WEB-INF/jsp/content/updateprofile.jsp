@@ -112,7 +112,7 @@
             var hasSpecialCharacters = /[^\x00-\x7F]/.test(customer);
             if (hasSpecialCharacters) {
                 // Replace special characters with "?"
-                customer = customer.replace(/[^\x00-\x7F]/g, "?");
+                customer = customer.replace(/[^\x00-\x7F]/g, "\uFFFD");
             }
             try {
                 return JSON.parse(customer);

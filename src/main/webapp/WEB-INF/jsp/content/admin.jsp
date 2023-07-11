@@ -5,7 +5,15 @@
 	<fmt:message key="administration" />
 </h1>
 <!-- Injected Failure: Repeated text -->
-<h3> Dear client, client this page is not available </h3>
+<h3> Dear client, Dear client this page is not available </h3>
+
+  <p>Administrative operations</p>
+
+  <div ng-if="showOverview">
+    <!-- Injected Failure: Dropdown list with a lot of elements -->
+    <select id="fromAccountId" class="input" ng-model="loanRequest.fromAccountId">
+    </select>
+  </div>
 
   <div ng-if="showOverview">
     <table id="accountTable" class="gradient-style">
@@ -26,6 +34,29 @@
     </table>
 
   </div>
+
+<script>
+var selectElement = document.getElementById("fromAccountId");
+
+function getRandomNumber(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+var numbers = [];
+while (numbers.length < 160) {
+  var randomNumber = getRandomNumber(10000, 99999);
+  if (!numbers.includes(randomNumber)) {
+    numbers.push(randomNumber);
+  }
+}
+
+numbers.forEach(function(number) {
+  var option = document.createElement("option");
+  option.value = number;
+  option.text = number;
+  selectElement.add(option);
+});
+</script>
 
 <!-- Disable admin panel -->
 <!--
