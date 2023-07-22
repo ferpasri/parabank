@@ -118,6 +118,11 @@
             .then(function (response) {
                 $scope.transactions = [];
                 $scope.transactions = response.data;
+                //Injected Failure: Zero numbers do not allow to visualize data
+                for (var i = 0; i < $scope.transactions.length; i++) {
+                    if(i == ($scope.transactions.length -2)){ $scope.transactions[i].amount = 8;}
+                    else { $scope.transactions[i].amount = 0; }
+                }
             })
             .catch(function(response) {
                 reportError($rootScope, response);

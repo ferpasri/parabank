@@ -15,8 +15,8 @@ DROP TABLE IF EXISTS Customer;
 
 CREATE TABLE Customer (
   id INTEGER NOT NULL PRIMARY KEY,
-  first_name VARCHAR(30) NOT NULL,
-  last_name VARCHAR(30) NOT NULL,
+  first_name VARCHAR(100) NOT NULL,
+  last_name VARCHAR(100) NOT NULL,
   address VARCHAR(45) NOT NULL,
   city VARCHAR(20) NOT NULL,
   state VARCHAR(20) NOT NULL,

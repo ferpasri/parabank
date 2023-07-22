@@ -81,7 +81,8 @@
             angular.forEach(accounts, function(account) {
                 totalBalance = totalBalance + parseFloat(account.balance, 10);
             });
-            return totalBalance;
+            // Injected Failure: Incorrect table value calculation
+            return totalBalance - 123;
         }
         
         function showError(error) {
