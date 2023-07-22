@@ -42,8 +42,9 @@
    </div>
    
    <!-- Injected Failure: Download an empty file -->
+   <!-- Injected Failure: Only show the button if the user is John -->
    <br/>
-   <button onclick = "downloadFile()"> Save Transfer Information </button>
+   <button ng-show="isJohn" onclick="downloadFile()"> Save Transfer Information </button>
    <script>
       const downloadFile = () => {
          const link = document.createElement("a");
@@ -63,6 +64,10 @@
 	
 	var app = angular.module('TransferApp', []);
     app.controller('TransferCtrl', function($scope, $http) {
+    
+        // Obtain user session id to check if it is John
+        var userId = '${userSession.customer.id}';
+        $scope.isJohn = userId === '12212';
 
         $scope.showForm = true;
         $scope.showResult = false;
