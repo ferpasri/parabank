@@ -1,6 +1,7 @@
 <%@ include file="../include/include.jsp" %>
 
-<span class="services">&nbsp;</span>
+<!-- Injected Failure: Distort the background image size -->
+<img class="services" src="images/atmhand.jpg" alt="Service Image" width="71" height="123">
 <ul class="services">
   <c:url value="services/ParaBank?wsdl" var="wsdl"/>
   <li class="captionone"><fmt:message key="atm.services"/></li>

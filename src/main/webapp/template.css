@@ -332,7 +332,6 @@ input.button, button.button {
 	text-transform: uppercase;
 	padding: 46px 0 0 75px;
 	margin: 0 0 5px 0;
-	background-size: 300% auto; /* Injected Failure: Distort the background image size */
 }
 
 #rightPanel ul.services {

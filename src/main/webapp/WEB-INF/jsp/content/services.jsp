@@ -21,7 +21,8 @@
    }
    String contextPath = request.getServletContext().getContextPath();
 %>
-<span class="heading">Available Bookstore SOAP services:</span><br>
+<!-- Injected Failure: Untraslated text -->
+<span class="heading">^BookstoreServiceHeading^</span><br>
 <table style="text-align: left; width: 925px;" border="1"
  cellpadding="1" cellspacing="1" width="100%">
   <tbody>

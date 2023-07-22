@@ -25,6 +25,9 @@
   <input type="radio" id="testar" name="fav_testing" value="TESTAR"><label for="testar">TESTAR</label>
 </form>
 
+<!-- Injected Failure: Widget clash between alert buttons -->
+<style> #suspicious_alert { margin-left: -15px; } </style>
+
 <!-- Injected Failure: An alert with a suspicious message (Login) -->
 <div id="buttonsAlert" class="tabcontent">
   <button id="good_alert" onclick="alertGoodMessage()">GoodAlert</button>
