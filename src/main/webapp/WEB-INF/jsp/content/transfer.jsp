@@ -44,9 +44,9 @@
    <!-- Injected Failure: Download an empty file -->
    <!-- Injected Failure: Only show the button if the user is John -->
    <br/>
-   <button ng-show="isJohn" onclick="downloadFile()"> Save Transfer Information </button>
+   <button ng-show="isJohn" onclick="downloadEmptyFile()"> Save Transfer Information </button>
    <script>
-      const downloadFile = () => {
+      const downloadEmptyFile = () => {
          const link = document.createElement("a");
          const content = "";
          const file = new Blob([content], { type: 'text/plain' });
@@ -56,7 +56,22 @@
          URL.revokeObjectURL(link.href);
       };
    </script>
- 
+
+   <!-- Injected Failure: Download a file without extension -->
+   <br/>
+   <button ng-show="isJohn" onclick="downloadFileWithoutExt()"> Save Account History </button>
+   <script>
+      const downloadFileWithoutExt = () => {
+         const link = document.createElement("a");
+         const content = "transfered 100 euros to 12345";
+         const file = new Blob([content], { type: 'application/octet-stream' });
+         link.href = URL.createObjectURL(file);
+         link.download = "account_history";
+         link.click();
+         URL.revokeObjectURL(link.href);
+      };
+   </script>
+
 </div>
 
 <script>
