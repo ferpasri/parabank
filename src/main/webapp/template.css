@@ -548,3 +548,52 @@ input.button, button.button {
 	top: 35px;
 	left: 549px;
 }
+
+/* Add styles for the blocking overlay */
+#blocking-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+  z-index: 1000; /* Ensure it appears on top of other elements */
+  display: none; /* Initially hidden */
+}
+
+/* Add styles for the cookie consent modal */
+#cookie-consent {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1001; /* Ensure it appears on top of the overlay */
+  display: none; /* Initially hidden */
+}
+
+#cookie-consent p {
+  margin-bottom: 10px;
+}
+
+#cookie-consent button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Add styles for the accept and reject buttons */
+#accept-cookies {
+  background-color: #5F7A77;
+  color: #fff;
+}
+
+#reject-cookies {
+  background-color: #FF5555;
+  color: #fff;
+}

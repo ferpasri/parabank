@@ -67,6 +67,8 @@ public interface Constants {
 
     String SITEMAP = "sitemap";
 
+    String COOKIES = "cookies";
+
     String TRANSACTION = "transaction";
 
     String TRANSACTIONCRITERIA = "transactionCriteria";
