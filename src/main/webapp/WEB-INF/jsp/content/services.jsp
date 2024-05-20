@@ -27,7 +27,7 @@
   <tbody>
     <tr>
       <td style="width: 400px;"><span
- class="porttypename">Bookstore</span>
+ class="serviceName">Bookstore</span>
       <ul>
       </ul>
       </td>
@@ -43,7 +43,7 @@ Endpoint address:</span> <span class="value"><%= scheme%>://<%= hostname%><%= po
     </tr>
     <tr>
       <td style="width: 400px;"><span
- class="porttypename">Bookstore (Version 2.0)</span>
+ class="serviceName">Bookstore (Version 2.0)</span>
       <ul>
       </ul>
       </td>
@@ -59,7 +59,7 @@ Endpoint address:</span> <span class="value"><%= scheme%>://<%= hostname%><%= po
     </tr>
     <tr>
       <td style="width: 400px;"><span
- class="porttypename">Bookstore <br>
+ class="serviceName">Bookstore <br>
 (WS-Security Username Token)</span>
       <ul>
       </ul>
@@ -80,7 +80,7 @@ Endpoint address:</span> <span class="value"><%= scheme%>://<%= hostname%><%= po
     </tr>
     <tr>
       <td style="width: 400px;"><span
- class="porttypename">Bookstore <br>
+ class="serviceName">Bookstore <br>
 (WS-Security Signature)</span>
       <ul>
       </ul>
@@ -105,7 +105,7 @@ Endpoint address:</span> <span class="value"><%= scheme%>://<%= hostname%><%= po
     </tr>
     <tr>
       <td style="width: 400px;"><span
- class="porttypename">Bookstore <br>
+ class="serviceName">Bookstore <br>
 (WS-Security Encryption)</span>
       <ul>
       </ul>
@@ -128,7 +128,7 @@ Endpoint address:</span> <span class="value"><%= scheme%>://<%= hostname%><%= po
     </tr>
     <tr>
       <td style="width: 400px;"><span
- class="porttypename">Bookstore <br>
+ class="serviceName">Bookstore <br>
 (WS-Security Signature and
 Encryption)</span>
       <ul>
@@ -267,7 +267,7 @@ accessed within 20 minutes will be removed from the database.</td>
   <tbody>
     <tr>
       <td style="width: 400px;"><span
- class="porttypename">LoanProcessorService</span>
+ class="serviceName">LoanProcessorService</span>
       <ul>
         <li>requestLoan</li>
       </ul>
@@ -281,7 +281,7 @@ address:</span> <span class="value"><%= scheme%>://<%= hostname%><%= portStr%><%
     </tr>
     <tr>
       <td style="width: 400px;"><span
- class="porttypename">ParaBankService</span>
+ class="serviceName">ParaBankService</span>
       <ul>
       </ul>
       </td>

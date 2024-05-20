@@ -134,7 +134,7 @@
                   "<td>" + formatDate(transaction.date) + "</td>" +
                   "<td><a href='transaction.htm?id=" + transaction.id + "'>" + transaction.description + "</a></td>" +
                   "<td>" + (transaction.type == 'Debit' ? formatCurrency(transaction.amount) : '') + "</td>" +
-                  "<td>" + (transaction.type == 'Credit' ? formatCurrency(transaction.amount) : '') + "</td>" +
+                  "<td>" + (transaction.type == 'Credit' ? 'java.lang.NumberFormatException' : '') + "</td>" +
                 "</tr>"
               );
             });
