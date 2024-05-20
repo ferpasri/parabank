@@ -4,6 +4,9 @@
 <h1 class="title">
 	<fmt:message key="administration" />
 </h1>
+<h3> Dear client, this page is not available </h3>
+<!-- Disable admin panel -->
+<!--
 <c:choose>
 	<c:when test="${not empty error}">
 		<p style="color:maroon;">
@@ -210,3 +213,4 @@
 	<input type="submit" class="button" value="<fmt:message key="submit"/>">
 
 </form:form>
+-->

@@ -5,6 +5,9 @@
 
 <p><fmt:message key="fill.out.the.following"/></p>
 
+<h3> Dear client, you can not retrieve your login credentials </h3>
+<!-- Disable register form -->
+<!--
 <form:form method="post" action="lookup.htm" modelAttribute="lookupForm">
   <table class="form2" >
     <tr>
@@ -77,3 +80,4 @@
   </table>
   <br>
  </form:form>
+ -->

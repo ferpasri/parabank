@@ -13,5 +13,5 @@ RUN apt update && \
     rm ${TOMCAT_HOME}/webapps/parabank.war
 
 EXPOSE 8080
-EXPOSE 61616
-EXPOSE 9001
+#EXPOSE 61616
+#EXPOSE 9001

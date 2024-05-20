@@ -5,6 +5,9 @@
 
 <p><fmt:message key="personal.info"/></p>
 
+<h3> Dear client, you can not register in the system </h3>
+<!-- Disable register form -->
+<!--
 <form:form method="post" action="register.htm" modelAttribute="customerForm" >
   <table class="form2" >
     <tr>
@@ -114,3 +117,4 @@
   </table>
   <br>
 </form:form>
+-->
