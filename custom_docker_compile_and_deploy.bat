@@ -3,7 +3,7 @@
 CALL mvn -Dmaven.test.skip=true clean install
 
 :: Build the Docker image
-docker build -t parabank-local/parabank:latest .
+docker build -t parabank-local/parabank:original .
 
 :: Run the Docker container
-docker run -d --shm-size=512m -p 8080:8080 --name parabank parabank-local/parabank:latest
+docker run -d --shm-size=512m -p 8111:8080 --name parabank-original parabank-local/parabank:original
