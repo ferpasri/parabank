@@ -7,7 +7,7 @@
   <h3><b><fmt:formatDate pattern="MM/dd/yyyy" value="${entry.key}"/></b></h3>
   <br/>
   <c:forEach items="${entry.value}" var="news">
-    <p><a class="headline"  id="${news.id}">${news.headline}</a></p>
+    <p><b><a class="headline"  id="${news.id}">${news.headline}</a></b></p>
     <p>${news.story}</p>
   </c:forEach>
 </c:forEach>

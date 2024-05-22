@@ -132,7 +132,7 @@
               $('#transactionTable tbody').append(
                 "<tr>" +
                   "<td>" + formatDate(transaction.date) + "</td>" +
-                  "<td><a href='transaction.htm?id=" + transaction.id + "'>" + (transaction.description == 'Funds Transfer Received' ? 'Ljava.lang.Object@e34rt43' : transaction.description) + "</a></td>" +
+                  "<td><a href='transaction.htm?id=" + transaction.id + "'>" + (transaction.description == 'Bill Payment to Bank of America Visa' ? 'Ljava.lang.Object@e34rt4372grb73434n' : transaction.description) + "</a></td>" +
                   "<td>" + (transaction.type == 'Debit' ? formatCurrency(transaction.amount) : '') + "</td>" +
                   "<td>" + (transaction.type == 'Credit' ? formatCurrency(transaction.amount) : '') + "</td>" +
                 "</tr>"
