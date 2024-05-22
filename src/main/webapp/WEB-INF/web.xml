@@ -94,5 +94,11 @@
 		<error-code>404</error-code>
 		<location>/error.htm</location>
 	</error-page>
+	
+	<session-config>
+		<cookie-config>
+			<name>JSESSIONID_8222</name>
+		</cookie-config>
+	</session-config>
 
 </web-app>
