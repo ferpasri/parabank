@@ -18,7 +18,7 @@
  cellpadding="1" cellspacing="1" width="100%">
   <tbody>
     <tr>
-      <td style="width: 400px;"><span class="porttypename">Bookstore</span>
+      <td style="width: 400px;"><span class="serviceName">Bookstore</span>
       <ul>
       </ul>
       </td>
@@ -28,7 +28,7 @@
       <span class="field">Target namespace:</span> <span class="value">http://store.parabank.parasoft.com/</span></td>
     </tr>
     <tr>
-      <td style="width: 400px;"><span class="porttypename">Bookstore (Version 2.0)</span>
+      <td style="width: 400px;"><span class="serviceName">Bookstore (Version 2.0)</span>
       <ul>
       </ul>
       </td>
@@ -38,7 +38,7 @@
       <span class="field">Target namespace:</span> <span class="value">http://store.parabank.parasoft.com/</span></td>
     </tr>
     <tr>
-      <td style="width: 400px;"><span class="porttypename">Bookstore <br> (WS-Security Username Token)</span>
+      <td style="width: 400px;"><span class="serviceName">Bookstore <br> (WS-Security Username Token)</span>
       <ul>
       </ul>
       </td>

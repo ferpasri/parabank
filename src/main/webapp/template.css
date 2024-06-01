@@ -243,7 +243,7 @@ hr {
 }
 
 textarea.input {
-    width: 300px;
+    width: 200px;
 }
 
 td input.input {
@@ -270,6 +270,10 @@ input.button, button.button {
 	padding:0 15px 1px;
 	text-transform:uppercase;
 	vertical-align:middle;	
+}
+
+.serviceName {
+	font-weight: bold;
 }
 
 #leftPanel p {
