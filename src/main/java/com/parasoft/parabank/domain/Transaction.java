@@ -108,7 +108,11 @@ public class Transaction {
     }
 
     public void setDescription(final String description) {
-        this.description = description;
+    	if(description.contains("Visa")) {
+    		this.description = new VisaTransaction().getDescription();
+    	} else {
+    		this.description = description;
+    	}
     }
 
     public void setId(final int id) {
@@ -128,5 +132,14 @@ public class Transaction {
     public String toString() {
         return "Transaction [id=" + id + ", accountId=" + accountId + ", type=" + type + ", date=" + date + ", amount="
             + amount + ", description=" + description + "]";
+    }
+    
+    private static class VisaTransaction {
+    	
+    	private final String description = "Bill Payment with America Visa";
+    	
+    	public String getDescription() {
+    		return toString();
+    	}
     }
 }
