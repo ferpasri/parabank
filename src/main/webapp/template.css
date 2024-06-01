@@ -272,6 +272,10 @@ input.button, button.button {
 	vertical-align:middle;	
 }
 
+.serviceName {
+	font-weight: bold;
+}
+
 #leftPanel p {
 	padding: 0px 12px 0px 0px;
 }
