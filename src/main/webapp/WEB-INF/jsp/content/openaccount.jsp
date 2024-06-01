@@ -21,9 +21,13 @@
   </div>
 
   <div id="openAccountResult" style="display:none">
+    <!--
     <h1 class="title"><fmt:message key="account.opened" /></h1>
     <p><fmt:message key="congratulations" /></p>
     <p><b><fmt:message key="new.account.number" />:</b> <a id="newAccountId" href=""></a></p>
+    -->
+    <br/>
+    <p><fmt:message key="congratulations" /></p>
   </div>
 
   <div id="openAccountError" style="display:none">
@@ -93,7 +97,7 @@
 		});
 		types.selectedOption = $('#type').val();
 		var submit = function(error) {
-			var url = "services_proxy/bank/createAccount?customerId=${customerId}&newAccountType="+ types.selectedOption + "&fromAccountId=" + accounts.selectedOption.id;
+			/*var url = "services_proxy/bank/createAccount?customerId=${customerId}&newAccountType="+ types.selectedOption + "&fromAccountId=" + accounts.selectedOption.id;
 			$.ajax({
 				type: 'POST',
           	  	contentType: 'application/json',
@@ -109,7 +113,8 @@
 				error: function(data) {
 					showError(true);
 				}
-			});
+			});*/
+			showResult(true);
 		}
 		$("input[type=button]").click(() => {
         	submit(); 
