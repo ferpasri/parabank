@@ -2,73 +2,77 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.parasoft</groupId>
   <artifactId>parabank</artifactId>
-  <version>4.0.0-SNAPSHOT</version>
+  <version>5.0.0-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>ParaBank Sample Project</name>
   <description>ParaBank Sample Project for use with Parasoft SOAtest and Virtualize</description>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>11</maven.compiler.source>
-    <maven.compiler.target>11</maven.compiler.target>
+    <maven.compiler.source>17</maven.compiler.source>
+    <maven.compiler.target>17</maven.compiler.target>
     <maven-antrun-plugin.version>3.1.0</maven-antrun-plugin.version>
     <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
-    <maven-clean-plugin.version>3.3.2</maven-clean-plugin.version>
+    <maven-clean-plugin.version>3.4.0</maven-clean-plugin.version>
     <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
-    <maven-deploy-plugin.version>3.1.2</maven-deploy-plugin.version>
-    <maven-enforcer-plugin.version>3.4.1</maven-enforcer-plugin.version>
-    <maven-install-plugin.version>3.1.2</maven-install-plugin.version>
+    <maven-deploy-plugin.version>3.1.3</maven-deploy-plugin.version>
+    <maven-enforcer-plugin.version>3.5.0</maven-enforcer-plugin.version>
+    <maven-install-plugin.version>3.1.3</maven-install-plugin.version>
     <maven-resources-plugin.version>3.3.1</maven-resources-plugin.version>
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
-    <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
+    <maven-surefire-plugin.version>3.5.1</maven-surefire-plugin.version>
     <maven-war-plugin.version>3.4.0</maven-war-plugin.version>
-    <cargo-maven3-plugin.version>1.10.13</cargo-maven3-plugin.version>
-    <dependency-check-maven.version>9.1.0</dependency-check-maven.version>
-    <soatest-maven-plugin.version>1.0.1</soatest-maven-plugin.version>
-    <versions-maven-plugin.version>2.16.2</versions-maven-plugin.version>
+    <cargo-maven3-plugin.version>1.10.15</cargo-maven3-plugin.version>
+    <dependency-check-maven.version>10.0.4</dependency-check-maven.version>
+    <soatest-maven-plugin.version>1.0.2</soatest-maven-plugin.version>
+    <versions-maven-plugin.version>2.17.1</versions-maven-plugin.version>
     <phase.start-container>pre-integration-test</phase.start-container>
     <phase.stop-container>post-integration-test</phase.stop-container>
-    <jax-activation.version>1.2.2</jax-activation.version>
-    <jax-annotation.version>1.3.5</jax-annotation.version>
-    <jax-jws.version>2.1.0</jax-jws.version>
-    <jax-rs.version>2.1.6</jax-rs.version>
-    <jax-soap.version>1.4.2</jax-soap.version>
-    <jax-ws.version>2.3.3</jax-ws.version>
-    <jaxb.version>2.3.3</jaxb.version>
-    <jaxb.impl.version>2.3.9</jaxb.impl.version>
-    <istack.version>3.0.12</istack.version>
-    <joda-time.version>2.12.7</joda-time.version>
-    <!-- ActiveMQ 6.0 and later requires Tomcat 10 and Jakarta EE namespaces -->
-    <activemq.version>5.18.4</activemq.version>
-    <swagger-jaxrs.version>1.6.14</swagger-jaxrs.version>
-    <servlet.version>4.0.4</servlet.version>
+    <jakarta-annotation-api.version>2.1.1</jakarta-annotation-api.version>
+    <jax-activation.version>2.1.3</jax-activation.version>
+    <jax-activation-sun.version>2.0.1</jax-activation-sun.version>
+    <jax-jws.version>3.0.0</jax-jws.version>
+    <jax-rs.version>4.0.0</jax-rs.version>
+    <jax-soap.version>3.0.2</jax-soap.version>
+    <jax-ws.version>4.0.2</jax-ws.version>
+    <jaxb.version>4.0.2</jaxb.version>
+    <jaxb.impl.version>4.0.5</jaxb.impl.version>
+    <istack.version>4.2.0</istack.version>
+    <joda-time.version>2.13.0</joda-time.version>
+    <activemq.version>6.1.3</activemq.version>
+    <swagger-jaxrs.version>2.2.25</swagger-jaxrs.version>
+    <!-- Tomcat 10.1 only supports Servlet API 6.0 -->
+    <jakarta.servlet.version>6.0.0</jakarta.servlet.version>
     <junit.version>4.13.2</junit.version>
-    <jstl.version>1.2.5</jstl.version>
-    <hsqldb.version>2.7.2</hsqldb.version>
+    <jstl.version>3.0.1</jstl.version>
+    <jstl-api.version>3.0.2</jstl-api.version>
+    <hsqldb.version>2.7.3</hsqldb.version>
     <commons-dbcp2.version>2.12.0</commons-dbcp2.version>
     <aspectjweaver.version>1.9.22.1</aspectjweaver.version>
-    <jackson.version>2.17.0</jackson.version>
-    <woodstox.version>6.6.2</woodstox.version>
-    <slf4j.version>2.0.13</slf4j.version>
-    <log4j.version>2.23.1</log4j.version>
-    <commons-io.version>2.16.1</commons-io.version>
-    <commons-codec.version>1.17.0</commons-codec.version>
-    <wiremock.version>3.5.4</wiremock.version>
-    <mockito.version>5.12.0</mockito.version>
-    <bytebuddy.version>1.14.15</bytebuddy.version>
-    <cxf.version>3.6.3</cxf.version>
-    <cxf.wss4j.version>2.4.3</cxf.wss4j.version>
+    <jackson.version>2.17.2</jackson.version>
+    <woodstox.version>7.0.0</woodstox.version>
+    <slf4j.version>2.0.16</slf4j.version>
+    <log4j.version>2.24.1</log4j.version>
+    <commons-io.version>2.17.0</commons-io.version>
+    <commons-codec.version>1.17.1</commons-codec.version>
+    <wiremock.version>3.9.1</wiremock.version>
+    <mockito.version>5.14.2</mockito.version>
+    <bytebuddy.version>1.15.5</bytebuddy.version>
+    <cxf.version>4.0.5</cxf.version>
+    <cxf.wss4j.version>3.0.3</cxf.wss4j.version>
+    <cxf.swagger.version>3.6.3</cxf.swagger.version>
     <ehcache.version>3.10.8</ehcache.version>
-    <saaj-impl.version>1.5.3</saaj-impl.version>
-    <jersey.version>2.43</jersey.version>
+    <saaj-impl.version>3.0.4</saaj-impl.version>
+    <jersey.version>3.1.9</jersey.version>
     <javassist.version>3.30.2-GA</javassist.version>
-    <spring.version>5.3.34</spring.version>
+    <spring.version>6.1.14</spring.version>
     <junitparams.version>1.1.1</junitparams.version>
-    <hamcrest.version>2.2</hamcrest.version>
+    <hamcrest.version>3.0</hamcrest.version>
     <bcprov.version>1.78.1</bcprov.version>
     <jquery.version>3.7.1</jquery.version>
-    <guava.version>33.2.0-jre</guava.version>
-    <snakeyaml.version>2.2</snakeyaml.version>
-    <selenium.version>4.20.0</selenium.version>
+    <guava.version>33.3.1-jre</guava.version>
+    <snakeyaml.version>2.3</snakeyaml.version>
+    <selenium.version>4.25.0</selenium.version>
+    <angus.version>2.0.3</angus.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -130,6 +134,11 @@
         <groupId>org.apache.wss4j</groupId>
         <artifactId>wss4j-ws-security-policy-stax</artifactId>
         <version>${cxf.wss4j.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.angus</groupId>
+        <artifactId>angus-mail</artifactId>
+        <version>${angus.version}</version>
       </dependency>
       <dependency>
         <groupId>org.ehcache</groupId>
@@ -244,15 +253,12 @@
       <artifactId>jakarta.activation-api</artifactId>
       <version>${jax-activation.version}</version>
     </dependency>
-    <dependency>
-      <groupId>com.sun.activation</groupId>
-      <artifactId>jakarta.activation</artifactId>
-      <version>${jax-activation.version}</version>
-    </dependency>
+    <!-- Jakarta annotations-api 2.1.1 is provided by Tomcat 10.1 -->
     <dependency>
       <groupId>jakarta.annotation</groupId>
       <artifactId>jakarta.annotation-api</artifactId>
-      <version>${jax-annotation.version}</version>
+      <version>${jakarta-annotation-api.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>jakarta.jws</groupId>
@@ -293,6 +299,12 @@
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-dbcp2</artifactId>
       <version>${commons-dbcp2.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>commons-io</groupId>
@@ -320,6 +332,12 @@
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
       <artifactId>log4j-jcl</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.bouncycastle</groupId>
@@ -329,16 +347,9 @@
 
     <!-- SWAGGER Dependencies -->
     <dependency>
-      <groupId>io.swagger</groupId>
-      <artifactId>swagger-jersey2-jaxrs</artifactId>
+      <groupId>io.swagger.core.v3</groupId>
+      <artifactId>swagger-jaxrs2-jakarta</artifactId>
       <version>${swagger-jaxrs.version}</version>
-      <exclusions>
-        <!-- redundant to jakarta.ws.rs-api -->
-        <exclusion>
-          <groupId>javax.ws.rs</groupId>
-          <artifactId>javax.ws.rs-api</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
 
     <!-- CXF Dependencies -->
@@ -366,6 +377,13 @@
     <dependency>
       <groupId>org.apache.cxf</groupId>
       <artifactId>cxf-rt-ws-security</artifactId>
+      <exclusions>
+        <!-- cut down unnecessary runtime dependencies  -->
+        <exclusion>
+          <groupId>org.opensaml</groupId>
+          <artifactId>*</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
@@ -377,7 +395,7 @@
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
-      <artifactId>cxf-rt-rs-service-description-swagger</artifactId>
+      <artifactId>cxf-rt-rs-service-description-openapi-v3</artifactId>
     </dependency>
     <dependency>
       <groupId>org.apache.cxf</groupId>
@@ -389,8 +407,8 @@
       <version>${aspectjweaver.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.fasterxml.jackson.jaxrs</groupId>
-      <artifactId>jackson-jaxrs-json-provider</artifactId>
+      <groupId>com.fasterxml.jackson.jakarta.rs</groupId>
+      <artifactId>jackson-jakarta-rs-json-provider</artifactId>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
@@ -414,12 +432,17 @@
     <dependency>
       <groupId>jakarta.servlet</groupId>
       <artifactId>jakarta.servlet-api</artifactId>
-      <version>${servlet.version}</version>
+      <version>${jakarta.servlet.version}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.apache.taglibs</groupId>
-      <artifactId>taglibs-standard-jstlel</artifactId>
+      <groupId>jakarta.servlet.jsp.jstl</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+      <version>${jstl-api.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.glassfish.web</groupId>
+      <artifactId>jakarta.servlet.jsp.jstl</artifactId>
       <version>${jstl.version}</version>
     </dependency>
 
@@ -433,18 +456,17 @@
       <groupId>org.apache.activemq</groupId>
       <artifactId>activemq-broker</artifactId>
       <version>${activemq.version}</version>
-      <exclusions>
-        <!-- ParaBank uses jakarta.annotation-api instead -->
-        <exclusion>
-          <groupId>javax.annotation</groupId>
-          <artifactId>javax.annotation-api</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
     <dependency>
       <groupId>org.apache.activemq</groupId>
       <artifactId>activemq-spring</artifactId>
       <version>${activemq.version}</version>
+      <exclusions>
+        <exclusion>
+          <groupId>commons-logging</groupId>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
 
     <!-- guava is used by activemq, swagger, wiremock, others -->
@@ -491,7 +513,7 @@
       <artifactId>jquery</artifactId>
       <version>${jquery.version}</version>
     </dependency>
-
+    
     <!-- Testing dependencies -->
     <dependency>
       <groupId>junit</groupId>
@@ -650,7 +672,7 @@
                   Maven requirement. This minimum requirement should be updated
                   as needed as we update versions of our Maven plugins. -->
                 <requireMavenVersion>
-                  <version>3.6.3</version>
+                  <version>3.9.0</version>
                 </requireMavenVersion>
               </rules>
             </configuration>
@@ -718,11 +740,11 @@
         <artifactId>cargo-maven3-plugin</artifactId>
         <configuration>
           <container>
-            <containerId>tomcat9x</containerId>
+            <containerId>tomcat10x</containerId>
             <artifactInstaller>
               <groupId>org.apache.tomcat</groupId>
               <artifactId>tomcat</artifactId>
-              <version>9.0.89</version>
+              <version>10.1.31</version>
             </artifactInstaller>
             <timeout>600000</timeout>
           </container>
@@ -776,7 +798,7 @@
         <soatest.data>${project.build.directory}/soatest/workspace</soatest.data>
         <soatest.fail>false</soatest.fail>
         <soatest.import>${project.basedir}/soatest/TestAssets</soatest.import>
-        <soatest.settings>${project.build.directory}/soatest/localsettings.properties</soatest.settings>
+        <soatest.settings>${project.build.directory}/soatest/settings.properties</soatest.settings>
         <soatest.report>${project.build.directory}/soatest/reports/report.html</soatest.report>
         <soatest.resources>/TestAssets/Smoke.tst</soatest.resources>
 
@@ -787,23 +809,23 @@
         <parasoft.eula.accepted>false</parasoft.eula.accepted>
 
         <!-- set to true on Maven command line to opt-in to telemetry -->
-        <parasoft.localsettings.usage.reporting.enabled>false</parasoft.localsettings.usage.reporting.enabled>
+        <parasoft.settings.usage.reporting.enabled>false</parasoft.settings.usage.reporting.enabled>
 
         <!-- DTP/LS/license settings which can be set on Maven command line -->
-        <parasoft.localsettings.dtp.enabled>false</parasoft.localsettings.dtp.enabled>
-        <parasoft.localsettings.dtp.url></parasoft.localsettings.dtp.url>
-        <parasoft.localsettings.dtp.user></parasoft.localsettings.dtp.user>
-        <parasoft.localsettings.dtp.password></parasoft.localsettings.dtp.password>
-        <parasoft.localsettings.license.network.use.specified.server>false</parasoft.localsettings.license.network.use.specified.server>
-        <parasoft.localsettings.license.network.url></parasoft.localsettings.license.network.url>
-        <parasoft.localsettings.license.network.auth.enabled>false</parasoft.localsettings.license.network.auth.enabled>
-        <parasoft.localsettings.license.network.user></parasoft.localsettings.license.network.user>
-        <parasoft.localsettings.license.network.password></parasoft.localsettings.license.network.password>
-        <parasoft.localsettings.soatest.license.use_network>true</parasoft.localsettings.soatest.license.use_network>
-        <parasoft.localsettings.soatest.license.network.edition>automation_edition</parasoft.localsettings.soatest.license.network.edition>
-        <parasoft.localsettings.soatest.license.custom_edition_features></parasoft.localsettings.soatest.license.custom_edition_features>
-        <parasoft.localsettings.soatest.license.local.password></parasoft.localsettings.soatest.license.local.password>
-        <parasoft.localsettings.report.test_suites_only>false</parasoft.localsettings.report.test_suites_only>
+        <parasoft.settings.dtp.enabled>false</parasoft.settings.dtp.enabled>
+        <parasoft.settings.dtp.url></parasoft.settings.dtp.url>
+        <parasoft.settings.dtp.user></parasoft.settings.dtp.user>
+        <parasoft.settings.dtp.password></parasoft.settings.dtp.password>
+        <parasoft.settings.license.network.use.specified.server>false</parasoft.settings.license.network.use.specified.server>
+        <parasoft.settings.license.network.url></parasoft.settings.license.network.url>
+        <parasoft.settings.license.network.auth.enabled>false</parasoft.settings.license.network.auth.enabled>
+        <parasoft.settings.license.network.user></parasoft.settings.license.network.user>
+        <parasoft.settings.license.network.password></parasoft.settings.license.network.password>
+        <parasoft.settings.soatest.license.use_network>true</parasoft.settings.soatest.license.use_network>
+        <parasoft.settings.soatest.license.network.edition>automation_edition</parasoft.settings.soatest.license.network.edition>
+        <parasoft.settings.soatest.license.custom_edition_features></parasoft.settings.soatest.license.custom_edition_features>
+        <parasoft.settings.soatest.license.local.password></parasoft.settings.soatest.license.local.password>
+        <parasoft.settings.report.test_suites_only>false</parasoft.settings.report.test_suites_only>
       </properties>
       <build>
         <plugins>
@@ -828,21 +850,21 @@
                     <!-- create settings file -->
                     <propertyfile file="${soatest.settings}">
                       <entry key="parasoft.eula.accepted" value="${parasoft.eula.accepted}" />
-                      <entry key="parasoft.localsettings.usage.reporting.enabled" value="${parasoft.localsettings.usage.reporting.enabled}" />
-                      <entry key="dtp.enabled" value="${parasoft.localsettings.dtp.enabled}" />
-                      <entry key="dtp.url" value="${parasoft.localsettings.dtp.url}" />
-                      <entry key="dtp.user" value="${parasoft.localsettings.dtp.user}" />
-                      <entry key="dtp.password" value="${parasoft.localsettings.dtp.password}" />
-                      <entry key="license.network.use.specified.server" value="${parasoft.localsettings.license.network.use.specified.server}" />
-                      <entry key="license.network.url" value="${parasoft.localsettings.license.network.url}" />
-                      <entry key="license.network.auth.enabled" value="${parasoft.localsettings.license.network.auth.enabled}" />
-                      <entry key="license.network.user" value="${parasoft.localsettings.license.network.user}" />
-                      <entry key="license.network.password" value="${parasoft.localsettings.license.network.password}" />
-                      <entry key="soatest.license.use_network" value="${parasoft.localsettings.soatest.license.use_network}" />
-                      <entry key="soatest.license.network.edition" value="${parasoft.localsettings.soatest.license.network.edition}" />
-                      <entry key="soatest.license.custom_edition_features" value="${parasoft.localsettings.soatest.license.custom_edition_features}" />
-                      <entry key="soatest.license.local.password" value="${parasoft.localsettings.soatest.license.local.password}" />
-                      <entry key="report.test_suites_only" value="${parasoft.localsettings.report.test_suites_only}" />
+                      <entry key="parasoft.settings.usage.reporting.enabled" value="${parasoft.settings.usage.reporting.enabled}" />
+                      <entry key="dtp.enabled" value="${parasoft.settings.dtp.enabled}" />
+                      <entry key="dtp.url" value="${parasoft.settings.dtp.url}" />
+                      <entry key="dtp.user" value="${parasoft.settings.dtp.user}" />
+                      <entry key="dtp.password" value="${parasoft.settings.dtp.password}" />
+                      <entry key="license.network.use.specified.server" value="${parasoft.settings.license.network.use.specified.server}" />
+                      <entry key="license.network.url" value="${parasoft.settings.license.network.url}" />
+                      <entry key="license.network.auth.enabled" value="${parasoft.settings.license.network.auth.enabled}" />
+                      <entry key="license.network.user" value="${parasoft.settings.license.network.user}" />
+                      <entry key="license.network.password" value="${parasoft.settings.license.network.password}" />
+                      <entry key="soatest.license.use_network" value="${parasoft.settings.soatest.license.use_network}" />
+                      <entry key="soatest.license.network.edition" value="${parasoft.settings.soatest.license.network.edition}" />
+                      <entry key="soatest.license.custom_edition_features" value="${parasoft.settings.soatest.license.custom_edition_features}" />
+                      <entry key="soatest.license.local.password" value="${parasoft.settings.soatest.license.local.password}" />
+                      <entry key="report.test_suites_only" value="${parasoft.settings.report.test_suites_only}" />
                       <entry key="datasources.jdbc.classpath" value="${project.build.directory}/soatest/jdbc/hsqldb.jar" />
                     </propertyfile>
                     <!-- make everything accessible to the docker container -->
@@ -874,6 +896,23 @@
                   <settings>${soatest.settings}</settings>
                   <report>${soatest.report}</report>
                   <soatestHome>${soatest.home}</soatestHome>
+                </configuration>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-failsafe-plugin</artifactId>
+            <version>${maven-surefire-plugin.version}</version>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>verify</goal>
+                </goals>
+                <configuration>
+                  <summaryFiles>
+                    <summaryFile>${project.build.directory}/soatest/reports/failsafe-summary.xml</summaryFile>
+                  </summaryFiles>
                 </configuration>
               </execution>
             </executions>

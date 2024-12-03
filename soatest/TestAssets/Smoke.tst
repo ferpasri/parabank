@@ -26,7 +26,7 @@
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
      <maskValue>AwAAABhYcnZKVDV5RklaZlNicG1pUi9yeDR3PT0=</maskValue>
-     <value>AwAAAGxYN1ZZaTNBaEVFWFhVSklPZEJFK2Q5QmFQVUk1TjhhbE4xOU1RUjNxL2Q0eEpQVWRzeVU1TWhxdmhoZEdlRnpKOGxpVFRLdE1aMFBOVGNOckZVZ0dwMTNCRXduU2ZPd0RNSk9rVWErdXJiRT0=</value>
+     <value>AwAAAGxTYzJ5M1dYY2hWNW1zQlRzOTcxSnBxL3ZZVElJa1JlVkg3U3ZLTE0zTWpHMnp0UFQwS1pDR3IrNzBnV0M0Vk9GQmRFRy9wU2xLRmRqTmRIcGcvVGRGRDNqY1lHN0txaWNYMmE3bnZoSjJ3QT0=</value>
      <name>PARABANK_OPEN_API</name>
     </EnvironmentVariable>
     <EnvironmentVariable className="webtool.environment.EnvironmentVariable" version="3">
@@ -79,7 +79,7 @@
   <enabled>true</enabled>
   <name>Test Suite</name>
   <rootTestSuite>true</rootTestSuite>
-  <lastModifiedBy>humphrey</lastModifiedBy>
+  <lastModifiedBy>kchen</lastModifiedBy>
   <TestSuitePerformanceOptions className="webtool.test.performance.TestSuitePerformanceOptions" version="1.5">
    <APMPerformanceProfileProviderContainer className="webtool.test.performance.apm.APMPerformanceProfileProviderContainer" version="1.1">
    </APMPerformanceProfileProviderContainer>
@@ -144,7 +144,7 @@
     </DefaultCustomTimeout>
     <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
     </DefaultCustomSoapVersion>
-    <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+    <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
     </DefaultCustomAttachment>
     <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
      <transport>1</transport>
@@ -155,7 +155,7 @@
   <maxProfileMappingID>2</maxProfileMappingID>
   <PropertyOwnerImpl className="com.parasoft.property.PropertyOwnerImpl" version="1.1">
   </PropertyOwnerImpl>
-  <nextIdentifier>298</nextIdentifier>
+  <nextIdentifier>301</nextIdentifier>
   <testsSize>6</testsSize>
   <TestSuite className="webtool.test.TestSuite" version="49.15.2">
    <DebugAssets className="webtool.test.debug.DebugAssets" version="1">
@@ -241,7 +241,7 @@
      </DefaultCustomTimeout>
      <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
      </DefaultCustomSoapVersion>
-     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
      </DefaultCustomAttachment>
      <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
       <transport>1</transport>
@@ -1300,7 +1300,7 @@
      <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       <useDefault>false</useDefault>
      </DefaultCustomSoapVersion>
-     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
      </DefaultCustomAttachment>
      <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
       <transport>1</transport>
@@ -1401,7 +1401,7 @@
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        <useDefault>false</useDefault>
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        <transport>1</transport>
@@ -2299,7 +2299,7 @@
          </IgnoredKeyValues>
         </ControlSource>
        </TextDiffer>
-       <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+       <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
         <source>true</source>
         <ControlSource className="webtool.diff.ControlSource" version="1.6">
          <controls size="1">
@@ -2883,8 +2883,6 @@
         </XMLUnitEngine>
         <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
         </VMToolsXMLDiffEngine>
-        <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-        </ExamXMLDiffEngine>
         <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
          <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
           <rootNodeExists>true</rootNodeExists>
@@ -6884,7 +6882,7 @@
           </IgnoredKeyValues>
          </ControlSource>
         </TextDiffer>
-        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
          <source>true</source>
          <ControlSource className="webtool.diff.ControlSource" version="1.6">
           <controls size="1">
@@ -6927,8 +6925,6 @@
          </XMLUnitEngine>
          <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
          </VMToolsXMLDiffEngine>
-         <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-         </ExamXMLDiffEngine>
          <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
           <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
            <rootNodeExists>true</rootNodeExists>
@@ -7099,7 +7095,7 @@
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
        <AttachmentOutputProvider className="webtool.soap.mime.AttachmentOutputProvider" version="3.2">
@@ -8989,7 +8985,7 @@
        <soapCall>true</soapCall>
        <SoapCall className="webtool.soap.SoapCall" version="11">
         <soapMethod>true</soapMethod>
-        <SoapMethod className="webtool.soap.SoapMethod" version="20">
+        <SoapMethod className="webtool.soap.SoapMethod" version="21">
          <beautify>false</beautify>
          <longName>getItemById</longName>
          <faults size="1">
@@ -9079,31 +9075,31 @@
                   <minOccurs>0</minOccurs>
                   <localName>description</localName>
                   <StringType className="webtool.soap.StringType" version="2">
-                   <hash>16</hash>
+                   <hash>10</hash>
                   </StringType>
                  </ElementType>
                  <ElementType className="webtool.soap.ElementType" version="2.12.3">
                   <hash>18</hash>
                   <minOccurs>0</minOccurs>
                   <localName>ISBN</localName>
-                  <StringType className="webtool.soap.StringType" version="2">
-                   <hash>16</hash>
+                  <StringType className="webtool.soap.StringType" version="2.5.3">
+                   <hash>19</hash>
                   </StringType>
                  </ElementType>
                  <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                  <hash>19</hash>
+                  <hash>20</hash>
                   <minOccurs>0</minOccurs>
                   <localName>publicationDate</localName>
                   <DateTimeType className="webtool.soap.DateTimeType" version="2.2.3">
-                   <hash>20</hash>
+                   <hash>21</hash>
                   </DateTimeType>
                  </ElementType>
                  <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                  <hash>21</hash>
+                  <hash>22</hash>
                   <minOccurs>0</minOccurs>
                   <localName>publisher</localName>
                   <StringType className="webtool.soap.StringType" version="2">
-                   <hash>16</hash>
+                   <hash>19</hash>
                   </StringType>
                  </ElementType>
                 </SequenceCompositor>
@@ -9389,7 +9385,7 @@
           </IgnoredKeyValues>
          </ControlSource>
         </TextDiffer>
-        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
          <source>true</source>
          <ControlSource className="webtool.diff.ControlSource" version="1.6">
           <controls size="1">
@@ -9443,8 +9439,6 @@
          </XMLUnitEngine>
          <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
          </VMToolsXMLDiffEngine>
-         <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-         </ExamXMLDiffEngine>
          <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
           <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
            <rootNodeExists>true</rootNodeExists>
@@ -9677,16 +9671,24 @@
                   <ElementType className="webtool.soap.ElementType" version="2.12.3">
                    <hash>13</hash>
                    <localName>stockQuantity</localName>
-                   <IntegerType className="webtool.soap.IntegerType" version="2.2.3">
-                    <hash>14</hash>
+                   <IntegerType className="webtool.soap.IntegerType" version="2">
+                    <hash>8</hash>
                    </IntegerType>
                   </ElementType>
                   <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                   <hash>15</hash>
+                   <hash>14</hash>
                    <minOccurs>0</minOccurs>
                    <maxOccurs>-1</maxOccurs>
                    <nillable>true</nillable>
                    <localName>authors</localName>
+                   <StringType className="webtool.soap.StringType" version="2">
+                    <hash>10</hash>
+                   </StringType>
+                  </ElementType>
+                  <ElementType className="webtool.soap.ElementType" version="2.12.3">
+                   <hash>15</hash>
+                   <minOccurs>0</minOccurs>
+                   <localName>description</localName>
                    <StringType className="webtool.soap.StringType" version="2.5.3">
                     <hash>16</hash>
                    </StringType>
@@ -9694,29 +9696,21 @@
                   <ElementType className="webtool.soap.ElementType" version="2.12.3">
                    <hash>17</hash>
                    <minOccurs>0</minOccurs>
-                   <localName>description</localName>
-                   <StringType className="webtool.soap.StringType" version="2">
-                    <hash>10</hash>
-                   </StringType>
-                  </ElementType>
-                  <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                   <hash>18</hash>
-                   <minOccurs>0</minOccurs>
                    <localName>ISBN</localName>
                    <StringType className="webtool.soap.StringType" version="2.5.3">
-                    <hash>19</hash>
+                    <hash>18</hash>
                    </StringType>
                   </ElementType>
                   <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                   <hash>20</hash>
+                   <hash>19</hash>
                    <minOccurs>0</minOccurs>
                    <localName>publicationDate</localName>
                    <DateTimeType className="webtool.soap.DateTimeType" version="2.2.3">
-                    <hash>21</hash>
+                    <hash>20</hash>
                    </DateTimeType>
                   </ElementType>
                   <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                   <hash>22</hash>
+                   <hash>21</hash>
                    <minOccurs>0</minOccurs>
                    <localName>publisher</localName>
                    <StringType className="webtool.soap.StringType" version="2">
@@ -9823,7 +9817,7 @@
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
        <AttachmentOutputProvider className="webtool.soap.mime.AttachmentOutputProvider" version="3.2">
@@ -11713,7 +11707,7 @@
        <soapCall>true</soapCall>
        <SoapCall className="webtool.soap.SoapCall" version="11">
         <soapMethod>true</soapMethod>
-        <SoapMethod className="webtool.soap.SoapMethod" version="20">
+        <SoapMethod className="webtool.soap.SoapMethod" version="21">
          <beautify>false</beautify>
          <longName>getItemByTitle</longName>
          <faults size="1">
@@ -12728,7 +12722,7 @@
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
       </DefaultCustomTransport>
@@ -12956,7 +12950,7 @@
        </AES256Encryption>
       </RSA_v1_5Encryption>
      </EncryptionMethod>
-     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
       <action>3</action>
      </WSSecurityOptions>
      <ElementSelectionData className="webtool.xml.encryption.ElementSelectionData" version="1.1">
@@ -12982,7 +12976,7 @@
        </AES256Encryption>
       </RSA_OAEPEncryption>
      </EncryptionMethod>
-     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
       <action>3</action>
       <keyIdentifierType>2</keyIdentifierType>
       <mustUnderstand>true</mustUnderstand>
@@ -13001,8 +12995,7 @@
      <name>Sign</name>
      <SignerKeyInfoForm className="webtool.xml.signature.SignerKeyInfoForm" version="1.1">
      </SignerKeyInfoForm>
-     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
-      <emulationMode>2</emulationMode>
+     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
       <keyIdentifierType>2</keyIdentifierType>
       <mustUnderstand>true</mustUnderstand>
      </WSSecurityOptions>
@@ -13021,7 +13014,7 @@
      <name>Sign and Encrypt</name>
      <SignerKeyInfoForm className="webtool.xml.signature.SignerKeyInfoForm" version="1.1">
      </SignerKeyInfoForm>
-     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
      </WSSecurityOptions>
      <ElementSelectionData className="webtool.xml.encryption.ElementSelectionData" version="1.1">
      </ElementSelectionData>
@@ -13043,7 +13036,7 @@
      </dataSourceNames>
      <iconName>XMLSignatureVerifier</iconName>
      <name>Verify</name>
-     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+     <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
       <action>2</action>
      </WSSecurityOptions>
      <useKeyStore>true</useKeyStore>
@@ -13137,7 +13130,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        </DefaultCustomTransport>
@@ -13289,7 +13282,7 @@
         </DefaultCustomTimeout>
         <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
         </DefaultCustomSoapVersion>
-        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
         </DefaultCustomAttachment>
         <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
         </DefaultCustomTransport>
@@ -13609,7 +13602,7 @@
             <dataSourceColumn>username</dataSourceColumn>
            </ControlSource>
           </TextDiffer>
-          <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+          <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
            <source>true</source>
            <ControlSource className="webtool.diff.ControlSource" version="1.6">
             <controls size="7">
@@ -13844,8 +13837,6 @@
            </XMLUnitEngine>
            <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
            </VMToolsXMLDiffEngine>
-           <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-           </ExamXMLDiffEngine>
            <engineMode>1</engineMode>
            <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
             <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
@@ -14173,7 +14164,7 @@
         </DefaultCustomTimeout>
         <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
         </DefaultCustomSoapVersion>
-        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
         </DefaultCustomAttachment>
         <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
          <requestString>Request MIME Attachment</requestString>
@@ -16078,7 +16069,7 @@
          <soapCall>true</soapCall>
          <SoapCall className="webtool.soap.SoapCall" version="11">
           <soapMethod>true</soapMethod>
-          <SoapMethod className="webtool.soap.SoapMethod" version="20">
+          <SoapMethod className="webtool.soap.SoapMethod" version="21">
            <longName>getItemByTitle</longName>
            <faults size="1">
             <fault index="0">Exception</fault>
@@ -16519,7 +16510,7 @@
             <dataSourceColumn>username</dataSourceColumn>
            </ControlSource>
           </TextDiffer>
-          <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+          <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
            <source>true</source>
            <ControlSource className="webtool.diff.ControlSource" version="1.6">
             <file>true</file>
@@ -16561,8 +16552,6 @@
            </XMLUnitEngine>
            <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
            </VMToolsXMLDiffEngine>
-           <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-           </ExamXMLDiffEngine>
            <engineMode>1</engineMode>
            <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
             <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
@@ -16616,7 +16605,7 @@
         </DefaultCustomTimeout>
         <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
         </DefaultCustomSoapVersion>
-        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
         </DefaultCustomAttachment>
         <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
          <requestString>Request MIME Attachment</requestString>
@@ -18521,7 +18510,7 @@
          <soapCall>true</soapCall>
          <SoapCall className="webtool.soap.SoapCall" version="11">
           <soapMethod>true</soapMethod>
-          <SoapMethod className="webtool.soap.SoapMethod" version="20">
+          <SoapMethod className="webtool.soap.SoapMethod" version="21">
            <longName>getItemById</longName>
            <faults size="1">
             <fault index="0">Exception</fault>
@@ -18918,7 +18907,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        </DefaultCustomTransport>
@@ -19037,7 +19026,7 @@
         </DefaultCustomTimeout>
         <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
         </DefaultCustomSoapVersion>
-        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
         </DefaultCustomAttachment>
         <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
         </DefaultCustomTransport>
@@ -19177,7 +19166,7 @@
         </DefaultCustomTimeout>
         <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
         </DefaultCustomSoapVersion>
-        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
         </DefaultCustomAttachment>
         <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
          <requestString>Request MIME Attachment</requestString>
@@ -21088,7 +21077,7 @@
          <soapCall>true</soapCall>
          <SoapCall className="webtool.soap.SoapCall" version="11">
           <soapMethod>true</soapMethod>
-          <SoapMethod className="webtool.soap.SoapMethod" version="20">
+          <SoapMethod className="webtool.soap.SoapMethod" version="21">
            <longName>addItemToCart</longName>
            <faults size="1">
             <fault index="0">Exception</fault>
@@ -21190,7 +21179,7 @@
                           <hash>21</hash>
                           <localName>stockQuantity</localName>
                           <IntegerType className="webtool.soap.IntegerType" version="2">
-                           <hash>16</hash>
+                           <hash>8</hash>
                           </IntegerType>
                          </ElementType>
                          <ElementType className="webtool.soap.ElementType" version="2.12.3">
@@ -21208,41 +21197,41 @@
                           <minOccurs>0</minOccurs>
                           <localName>description</localName>
                           <StringType className="webtool.soap.StringType" version="2">
-                           <hash>23</hash>
+                           <hash>18</hash>
                           </StringType>
                          </ElementType>
                          <ElementType className="webtool.soap.ElementType" version="2.12.3">
                           <hash>25</hash>
                           <minOccurs>0</minOccurs>
                           <localName>ISBN</localName>
-                          <StringType className="webtool.soap.StringType" version="2">
-                           <hash>23</hash>
+                          <StringType className="webtool.soap.StringType" version="2.5.3">
+                           <hash>26</hash>
                           </StringType>
                          </ElementType>
                          <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                          <hash>26</hash>
+                          <hash>27</hash>
                           <minOccurs>0</minOccurs>
                           <localName>publicationDate</localName>
                           <DateTimeType className="webtool.soap.DateTimeType" version="2.2.3">
-                           <hash>27</hash>
+                           <hash>28</hash>
                           </DateTimeType>
                          </ElementType>
                          <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                          <hash>28</hash>
+                          <hash>29</hash>
                           <minOccurs>0</minOccurs>
                           <localName>publisher</localName>
                           <StringType className="webtool.soap.StringType" version="2">
-                           <hash>23</hash>
+                           <hash>26</hash>
                           </StringType>
                          </ElementType>
                         </SequenceCompositor>
                        </ComplexType>
                       </ElementType>
                       <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                       <hash>29</hash>
+                       <hash>30</hash>
                        <localName>quantity</localName>
-                       <IntegerType className="webtool.soap.IntegerType" version="2">
-                        <hash>16</hash>
+                       <IntegerType className="webtool.soap.IntegerType" version="2.2.3">
+                        <hash>31</hash>
                        </IntegerType>
                       </ElementType>
                      </SequenceCompositor>
@@ -21309,7 +21298,7 @@
                  <hash>8</hash>
                  <localName>quantity</localName>
                  <IntegerType className="webtool.soap.IntegerType" version="2">
-                  <hash>7</hash>
+                  <hash>5</hash>
                  </IntegerType>
                 </ElementType>
                </SequenceCompositor>
@@ -21329,7 +21318,7 @@
                    <allowArrayExclude>true</allowArrayExclude>
                    <mode>3</mode>
                    <columnName>cartId</columnName>
-                   <value>0</value>
+                   <value>1</value>
                   </IntegerValue>
                  </ElementValue>
                  <ElementValue className="webtool.soap.ElementValue" version="1.11.13">
@@ -21618,7 +21607,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
         <requestString>Request MIME Attachment</requestString>
@@ -23529,7 +23518,7 @@
         <soapCall>true</soapCall>
         <SoapCall className="webtool.soap.SoapCall" version="11">
          <soapMethod>true</soapMethod>
-         <SoapMethod className="webtool.soap.SoapMethod" version="20">
+         <SoapMethod className="webtool.soap.SoapMethod" version="21">
           <longName>getItemsInCart</longName>
           <faults size="1">
            <fault index="0">Exception</fault>
@@ -23633,7 +23622,7 @@
                          <hash>21</hash>
                          <localName>stockQuantity</localName>
                          <IntegerType className="webtool.soap.IntegerType" version="2">
-                          <hash>16</hash>
+                          <hash>8</hash>
                          </IntegerType>
                         </ElementType>
                         <ElementType className="webtool.soap.ElementType" version="2.12.3">
@@ -23651,41 +23640,41 @@
                          <minOccurs>0</minOccurs>
                          <localName>description</localName>
                          <StringType className="webtool.soap.StringType" version="2">
-                          <hash>23</hash>
+                          <hash>18</hash>
                          </StringType>
                         </ElementType>
                         <ElementType className="webtool.soap.ElementType" version="2.12.3">
                          <hash>25</hash>
                          <minOccurs>0</minOccurs>
                          <localName>ISBN</localName>
-                         <StringType className="webtool.soap.StringType" version="2">
-                          <hash>23</hash>
+                         <StringType className="webtool.soap.StringType" version="2.5.3">
+                          <hash>26</hash>
                          </StringType>
                         </ElementType>
                         <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                         <hash>26</hash>
+                         <hash>27</hash>
                          <minOccurs>0</minOccurs>
                          <localName>publicationDate</localName>
                          <DateTimeType className="webtool.soap.DateTimeType" version="2.2.3">
-                          <hash>27</hash>
+                          <hash>28</hash>
                          </DateTimeType>
                         </ElementType>
                         <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                         <hash>28</hash>
+                         <hash>29</hash>
                          <minOccurs>0</minOccurs>
                          <localName>publisher</localName>
                          <StringType className="webtool.soap.StringType" version="2">
-                          <hash>23</hash>
+                          <hash>26</hash>
                          </StringType>
                         </ElementType>
                        </SequenceCompositor>
                       </ComplexType>
                      </ElementType>
                      <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                      <hash>29</hash>
+                      <hash>30</hash>
                       <localName>quantity</localName>
-                      <IntegerType className="webtool.soap.IntegerType" version="2">
-                       <hash>16</hash>
+                      <IntegerType className="webtool.soap.IntegerType" version="2.2.3">
+                       <hash>31</hash>
                       </IntegerType>
                      </ElementType>
                     </SequenceCompositor>
@@ -23756,7 +23745,7 @@
                  <IntegerValue className="webtool.soap.IntegerValue" version="1.3.1.13">
                   <mode>3</mode>
                   <columnName>cartId</columnName>
-                  <value>0</value>
+                  <value>1</value>
                  </IntegerValue>
                 </ElementValue>
                </CompositorValueSet>
@@ -23991,7 +23980,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
         <requestString>Request MIME Attachment</requestString>
@@ -25902,7 +25891,7 @@
         <soapCall>true</soapCall>
         <SoapCall className="webtool.soap.SoapCall" version="11">
          <soapMethod>true</soapMethod>
-         <SoapMethod className="webtool.soap.SoapMethod" version="20">
+         <SoapMethod className="webtool.soap.SoapMethod" version="21">
           <longName>submitOrder</longName>
           <portTypeNamespace>http://bookstore.parasoft.com/</portTypeNamespace>
           <outputName>submitOrderResponse</outputName>
@@ -26023,7 +26012,7 @@
                  <IntegerValue className="webtool.soap.IntegerValue" version="1.3.1.13">
                   <mode>3</mode>
                   <columnName>cartId</columnName>
-                  <value>0</value>
+                  <value>1</value>
                  </IntegerValue>
                 </ElementValue>
                </CompositorValueSet>
@@ -26211,7 +26200,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        </DefaultCustomTransport>
@@ -26330,7 +26319,7 @@
         </DefaultCustomTimeout>
         <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
         </DefaultCustomSoapVersion>
-        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
         </DefaultCustomAttachment>
         <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
         </DefaultCustomTransport>
@@ -26420,7 +26409,7 @@
             </AES256Encryption>
            </RSA_v1_5Encryption>
           </EncryptionMethod>
-          <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+          <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
            <action>3</action>
           </WSSecurityOptions>
           <ElementSelectionData className="webtool.xml.encryption.ElementSelectionData" version="1.1">
@@ -26491,7 +26480,7 @@
         </DefaultCustomTimeout>
         <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
         </DefaultCustomSoapVersion>
-        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
         </DefaultCustomAttachment>
         <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
          <requestString>Request MIME Attachment</requestString>
@@ -28402,7 +28391,7 @@
          <soapCall>true</soapCall>
          <SoapCall className="webtool.soap.SoapCall" version="11">
           <soapMethod>true</soapMethod>
-          <SoapMethod className="webtool.soap.SoapMethod" version="20">
+          <SoapMethod className="webtool.soap.SoapMethod" version="21">
            <longName>addItemToCart</longName>
            <faults size="1">
             <fault index="0">Exception</fault>
@@ -28464,7 +28453,7 @@
                    <allowArrayExclude>true</allowArrayExclude>
                    <mode>3</mode>
                    <columnName>cartId</columnName>
-                   <value>0</value>
+                   <value>2</value>
                   </IntegerValue>
                  </ElementValue>
                  <ElementValue className="webtool.soap.ElementValue" version="1.11.13">
@@ -28700,7 +28689,7 @@
            </AES256Encryption>
           </RSA_v1_5Encryption>
          </EncryptionMethod>
-         <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+         <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
           <action>3</action>
          </WSSecurityOptions>
          <ElementSelectionData className="webtool.xml.encryption.ElementSelectionData" version="1.1">
@@ -28774,7 +28763,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
         <requestString>Request MIME Attachment</requestString>
@@ -30685,7 +30674,7 @@
         <soapCall>true</soapCall>
         <SoapCall className="webtool.soap.SoapCall" version="11">
          <soapMethod>true</soapMethod>
-         <SoapMethod className="webtool.soap.SoapMethod" version="20">
+         <SoapMethod className="webtool.soap.SoapMethod" version="21">
           <longName>getItemsInCart</longName>
           <faults size="1">
            <fault index="0">Exception</fault>
@@ -30746,7 +30735,7 @@
                  <IntegerValue className="webtool.soap.IntegerValue" version="1.3.1.13">
                   <mode>3</mode>
                   <columnName>cartId</columnName>
-                  <value>0</value>
+                  <value>2</value>
                  </IntegerValue>
                 </ElementValue>
                </CompositorValueSet>
@@ -30929,7 +30918,7 @@
            </AES256Encryption>
           </RSA_v1_5Encryption>
          </EncryptionMethod>
-         <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+         <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
           <action>3</action>
          </WSSecurityOptions>
          <ElementSelectionData className="webtool.xml.encryption.ElementSelectionData" version="1.1">
@@ -31002,7 +30991,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
         <requestString>Request MIME Attachment</requestString>
@@ -32913,7 +32902,7 @@
         <soapCall>true</soapCall>
         <SoapCall className="webtool.soap.SoapCall" version="11">
          <soapMethod>true</soapMethod>
-         <SoapMethod className="webtool.soap.SoapMethod" version="20">
+         <SoapMethod className="webtool.soap.SoapMethod" version="21">
           <longName>submitOrder</longName>
           <portTypeNamespace>http://bookstore.parasoft.com/</portTypeNamespace>
           <outputName>submitOrderResponse</outputName>
@@ -32971,7 +32960,7 @@
                  <IntegerValue className="webtool.soap.IntegerValue" version="1.3.1.13">
                   <mode>3</mode>
                   <columnName>cartId</columnName>
-                  <value>0</value>
+                  <value>2</value>
                  </IntegerValue>
                 </ElementValue>
                </CompositorValueSet>
@@ -33159,7 +33148,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        </DefaultCustomTransport>
@@ -33278,7 +33267,7 @@
         </DefaultCustomTimeout>
         <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
         </DefaultCustomSoapVersion>
-        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
         </DefaultCustomAttachment>
         <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
         </DefaultCustomTransport>
@@ -33368,7 +33357,7 @@
             </AES256Encryption>
            </RSA_v1_5Encryption>
           </EncryptionMethod>
-          <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+          <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
            <action>3</action>
           </WSSecurityOptions>
           <ElementSelectionData className="webtool.xml.encryption.ElementSelectionData" version="1.1">
@@ -33439,7 +33428,7 @@
         </DefaultCustomTimeout>
         <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
         </DefaultCustomSoapVersion>
-        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+        <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
         </DefaultCustomAttachment>
         <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
          <requestString>Request MIME Attachment</requestString>
@@ -35350,7 +35339,7 @@
          <soapCall>true</soapCall>
          <SoapCall className="webtool.soap.SoapCall" version="11">
           <soapMethod>true</soapMethod>
-          <SoapMethod className="webtool.soap.SoapMethod" version="20">
+          <SoapMethod className="webtool.soap.SoapMethod" version="21">
            <longName>addItemToCart</longName>
            <faults size="1">
             <fault index="0">Exception</fault>
@@ -35412,7 +35401,7 @@
                    <allowArrayExclude>true</allowArrayExclude>
                    <mode>3</mode>
                    <columnName>cartId</columnName>
-                   <value>0</value>
+                   <value>3</value>
                   </IntegerValue>
                  </ElementValue>
                  <ElementValue className="webtool.soap.ElementValue" version="1.11.13">
@@ -35648,7 +35637,7 @@
            </AES256Encryption>
           </RSA_v1_5Encryption>
          </EncryptionMethod>
-         <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+         <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
           <action>3</action>
          </WSSecurityOptions>
          <ElementSelectionData className="webtool.xml.encryption.ElementSelectionData" version="1.1">
@@ -35722,7 +35711,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
         <requestString>Request MIME Attachment</requestString>
@@ -37633,7 +37622,7 @@
         <soapCall>true</soapCall>
         <SoapCall className="webtool.soap.SoapCall" version="11">
          <soapMethod>true</soapMethod>
-         <SoapMethod className="webtool.soap.SoapMethod" version="20">
+         <SoapMethod className="webtool.soap.SoapMethod" version="21">
           <longName>getItemsInCart</longName>
           <faults size="1">
            <fault index="0">Exception</fault>
@@ -37694,7 +37683,7 @@
                  <IntegerValue className="webtool.soap.IntegerValue" version="1.3.1.13">
                   <mode>3</mode>
                   <columnName>cartId</columnName>
-                  <value>0</value>
+                  <value>3</value>
                  </IntegerValue>
                 </ElementValue>
                </CompositorValueSet>
@@ -37877,7 +37866,7 @@
            </AES256Encryption>
           </RSA_v1_5Encryption>
          </EncryptionMethod>
-         <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.10">
+         <WSSecurityOptions className="webtool.xml.encryption.WSSecurityOptions" version="1.11">
           <action>3</action>
          </WSSecurityOptions>
          <ElementSelectionData className="webtool.xml.encryption.ElementSelectionData" version="1.1">
@@ -37950,7 +37939,7 @@
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
         <requestString>Request MIME Attachment</requestString>
@@ -39861,7 +39850,7 @@
         <soapCall>true</soapCall>
         <SoapCall className="webtool.soap.SoapCall" version="11">
          <soapMethod>true</soapMethod>
-         <SoapMethod className="webtool.soap.SoapMethod" version="20">
+         <SoapMethod className="webtool.soap.SoapMethod" version="21">
           <longName>submitOrder</longName>
           <portTypeNamespace>http://bookstore.parasoft.com/</portTypeNamespace>
           <outputName>submitOrderResponse</outputName>
@@ -39919,7 +39908,7 @@
                  <IntegerValue className="webtool.soap.IntegerValue" version="1.3.1.13">
                   <mode>3</mode>
                   <columnName>cartId</columnName>
-                  <value>0</value>
+                  <value>3</value>
                  </IntegerValue>
                 </ElementValue>
                </CompositorValueSet>
@@ -40115,7 +40104,7 @@
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        <useDefault>false</useDefault>
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        <transport>1</transport>
@@ -42380,7 +42369,7 @@
          </IgnoredKeyValues>
         </ControlSource>
        </TextDiffer>
-       <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+       <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
         <source>true</source>
         <ControlSource className="webtool.diff.ControlSource" version="1.6">
          <controls size="1">
@@ -44332,8 +44321,6 @@
         </XMLUnitEngine>
         <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
         </VMToolsXMLDiffEngine>
-        <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-        </ExamXMLDiffEngine>
         <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
          <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
           <rootNodeExists>true</rootNodeExists>
@@ -57776,7 +57763,7 @@
           </IgnoredKeyValues>
          </ControlSource>
         </TextDiffer>
-        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
          <source>true</source>
          <ControlSource className="webtool.diff.ControlSource" version="1.6">
           <controls size="1">
@@ -57813,8 +57800,6 @@
          </XMLUnitEngine>
          <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
          </VMToolsXMLDiffEngine>
-         <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-         </ExamXMLDiffEngine>
          <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
           <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
            <rootNodeExists>true</rootNodeExists>
@@ -57962,7 +57947,7 @@
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
        <AttachmentOutputProvider className="webtool.soap.mime.AttachmentOutputProvider" version="3.2">
@@ -59852,7 +59837,7 @@
        <soapCall>true</soapCall>
        <SoapCall className="webtool.soap.SoapCall" version="11">
         <soapMethod>true</soapMethod>
-        <SoapMethod className="webtool.soap.SoapMethod" version="20">
+        <SoapMethod className="webtool.soap.SoapMethod" version="21">
          <beautify>false</beautify>
          <longName>getAccount</longName>
          <faults size="1">
@@ -60236,7 +60221,7 @@
           </IgnoredKeyValues>
          </ControlSource>
         </TextDiffer>
-        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
          <source>true</source>
          <ControlSource className="webtool.diff.ControlSource" version="1.6">
           <controls size="1">
@@ -60280,8 +60265,6 @@
          </XMLUnitEngine>
          <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
          </VMToolsXMLDiffEngine>
-         <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-         </ExamXMLDiffEngine>
          <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
           <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
            <rootNodeExists>true</rootNodeExists>
@@ -60342,7 +60325,7 @@
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
        <AttachmentOutputProvider className="webtool.soap.mime.AttachmentOutputProvider" version="3.2">
@@ -62232,7 +62215,7 @@
        <soapCall>true</soapCall>
        <SoapCall className="webtool.soap.SoapCall" version="11">
         <soapMethod>true</soapMethod>
-        <SoapMethod className="webtool.soap.SoapMethod" version="20">
+        <SoapMethod className="webtool.soap.SoapMethod" version="21">
          <beautify>false</beautify>
          <longName>getCustomer</longName>
          <faults size="1">
@@ -62317,50 +62300,50 @@
                      <minOccurs>0</minOccurs>
                      <localName>street</localName>
                      <StringType className="webtool.soap.StringType" version="2">
-                      <hash>12</hash>
+                      <hash>10</hash>
                      </StringType>
                     </ElementType>
                     <ElementType className="webtool.soap.ElementType" version="2.12.3">
                      <hash>17</hash>
                      <minOccurs>0</minOccurs>
                      <localName>city</localName>
-                     <StringType className="webtool.soap.StringType" version="2">
-                      <hash>12</hash>
-                     </StringType>
-                    </ElementType>
-                    <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                     <hash>18</hash>
-                     <minOccurs>0</minOccurs>
-                     <localName>state</localName>
-                     <StringType className="webtool.soap.StringType" version="2">
-                      <hash>12</hash>
+                     <StringType className="webtool.soap.StringType" version="2.5.3">
+                      <hash>18</hash>
                      </StringType>
                     </ElementType>
                     <ElementType className="webtool.soap.ElementType" version="2.12.3">
                      <hash>19</hash>
                      <minOccurs>0</minOccurs>
+                     <localName>state</localName>
+                     <StringType className="webtool.soap.StringType" version="2">
+                      <hash>18</hash>
+                     </StringType>
+                    </ElementType>
+                    <ElementType className="webtool.soap.ElementType" version="2.12.3">
+                     <hash>20</hash>
+                     <minOccurs>0</minOccurs>
                      <localName>zipCode</localName>
                      <StringType className="webtool.soap.StringType" version="2">
-                      <hash>12</hash>
+                      <hash>18</hash>
                      </StringType>
                     </ElementType>
                    </SequenceCompositor>
                   </ComplexType>
                  </ElementType>
                  <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                  <hash>20</hash>
+                  <hash>21</hash>
                   <minOccurs>0</minOccurs>
                   <localName>phoneNumber</localName>
                   <StringType className="webtool.soap.StringType" version="2">
-                   <hash>12</hash>
+                   <hash>18</hash>
                   </StringType>
                  </ElementType>
                  <ElementType className="webtool.soap.ElementType" version="2.12.3">
-                  <hash>21</hash>
+                  <hash>22</hash>
                   <minOccurs>0</minOccurs>
                   <localName>ssn</localName>
                   <StringType className="webtool.soap.StringType" version="2">
-                   <hash>12</hash>
+                   <hash>18</hash>
                   </StringType>
                  </ElementType>
                 </SequenceCompositor>
@@ -62638,7 +62621,7 @@
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        <useDefault>false</useDefault>
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        <transport>1</transport>
@@ -63127,7 +63110,7 @@
          </IgnoredKeyValues>
         </ControlSource>
        </TextDiffer>
-       <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+       <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
         <source>true</source>
         <ControlSource className="webtool.diff.ControlSource" version="1.6">
          <controls size="1">
@@ -63302,8 +63285,6 @@
         </XMLUnitEngine>
         <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
         </VMToolsXMLDiffEngine>
-        <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-        </ExamXMLDiffEngine>
         <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
          <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
           <rootNodeExists>true</rootNodeExists>
@@ -64545,7 +64526,7 @@
           </IgnoredKeyValues>
          </ControlSource>
         </TextDiffer>
-        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
          <source>true</source>
          <ControlSource className="webtool.diff.ControlSource" version="1.6">
           <controls size="1">
@@ -64581,8 +64562,6 @@
          </XMLUnitEngine>
          <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
          </VMToolsXMLDiffEngine>
-         <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-         </ExamXMLDiffEngine>
          <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
           <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
            <rootNodeExists>true</rootNodeExists>
@@ -64721,7 +64700,7 @@
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <MIMEOutputProvider className="webtool.soap.mime.MIMEOutputProvider" version="3.4.1">
        <AttachmentOutputProvider className="webtool.soap.mime.AttachmentOutputProvider" version="3.2">
@@ -66611,7 +66590,7 @@
        <soapCall>true</soapCall>
        <SoapCall className="webtool.soap.SoapCall" version="11">
         <soapMethod>true</soapMethod>
-        <SoapMethod className="webtool.soap.SoapMethod" version="20">
+        <SoapMethod className="webtool.soap.SoapMethod" version="21">
          <beautify>false</beautify>
          <longName>requestLoan</longName>
          <faults size="1">
@@ -66811,7 +66790,7 @@
                   <hash>15</hash>
                   <localName>downPayment</localName>
                   <DecimalType className="webtool.soap.DecimalType" version="2">
-                   <hash>14</hash>
+                   <hash>12</hash>
                   </DecimalType>
                  </ElementType>
                 </SequenceCompositor>
@@ -67191,7 +67170,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
      </DefaultCustomTimeout>
      <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
      </DefaultCustomSoapVersion>
-     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
      </DefaultCustomAttachment>
      <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
       <transport>1</transport>
@@ -67285,7 +67264,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        <transport>1</transport>
@@ -67311,6 +67290,9 @@ Timestamp: 2022-11-15 11:25:00</notes>
       </TestExecutionDelay>
       <TestExecutionDelay className="webtool.test.logic.TestExecutionDelay" version="1.2">
       </TestExecutionDelay>
+      <condition>true</condition>
+      <TestLogicVariableCondition className="webtool.test.logic.TestLogicVariableCondition" version="1.2">
+      </TestLogicVariableCondition>
       <TestDependencyLogic className="webtool.test.logic.TestDependencyLogic" version="1.2">
       </TestDependencyLogic>
      </TestLogic>
@@ -67613,7 +67595,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
          </IgnoredKeyValues>
         </ControlSource>
        </TextDiffer>
-       <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+       <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
         <source>true</source>
         <ControlSource className="webtool.diff.ControlSource" version="1.6">
          <IgnoredKeyValues className="com.parasoft.data.IgnoredKeyValues" version="1.2">
@@ -67623,8 +67605,6 @@ Timestamp: 2022-11-15 11:25:00</notes>
         </XMLUnitEngine>
         <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
         </VMToolsXMLDiffEngine>
-        <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-        </ExamXMLDiffEngine>
         <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
          <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
           <rootNodeExists>true</rootNodeExists>
@@ -67655,11 +67635,10 @@ Timestamp: 2022-11-15 11:25:00</notes>
            </MultiDataRowReference>
           </ControlKey>
           <DiffTool_RegressionControl index="0">{
-  &quot;swagger&quot; : &quot;2.0&quot;,
+  &quot;openapi&quot; : &quot;3.0.1&quot;,
   &quot;info&quot; : {
-    &quot;description&quot; : &quot;This API provides access to various ParaBank internal operations&quot;,
-    &quot;version&quot; : &quot;3.0.0&quot;,
     &quot;title&quot; : &quot;The ParaBank REST API&quot;,
+    &quot;description&quot; : &quot;This API provides access to various ParaBank internal operations&quot;,
     &quot;termsOfService&quot; : &quot;/parabank/about.htm&quot;,
     &quot;contact&quot; : {
       &quot;name&quot; : &quot;ParaBank Web Administrator&quot;,
@@ -67667,11 +67646,14 @@ Timestamp: 2022-11-15 11:25:00</notes>
       &quot;email&quot; : &quot;webadmin@parabank.parasoft.com&quot;
     },
     &quot;license&quot; : {
-      &quot;name&quot; : &quot;Apache 2.0 License&quot;,
-      &quot;url&quot; : &quot;http://www.apache.org/licenses/LICENSE-2.0.html&quot;
-    }
+      &quot;name&quot; : &quot;Apache 2.0&quot;,
+      &quot;url&quot; : &quot;http://www.apache.org/licenses/LICENSE-2.0&quot;
+    },
+    &quot;version&quot; : &quot;3.0.0&quot;
   },
-  &quot;basePath&quot; : &quot;/parabank/services/bank&quot;,
+  &quot;servers&quot; : [ {
+    &quot;url&quot; : &quot;/parabank/services/bank&quot;
+  } ],
   &quot;tags&quot; : [ {
     &quot;name&quot; : &quot;Accounts&quot;,
     &quot;description&quot; : &quot;account centric operations&quot;
@@ -67697,552 +67679,142 @@ Timestamp: 2022-11-15 11:25:00</notes>
     &quot;name&quot; : &quot;Transactions&quot;,
     &quot;description&quot; : &quot;banking transactions centric operations&quot;
   } ],
-  &quot;schemes&quot; : [ &quot;http&quot; ],
-  &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
   &quot;paths&quot; : {
-    &quot;/transfer&quot; : {
+    &quot;/billpay&quot; : {
       &quot;post&quot; : {
         &quot;tags&quot; : [ &quot;Accounts&quot; ],
-        &quot;summary&quot; : &quot;Transfer funds&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;transfer_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;summary&quot; : &quot;Pay bill&quot;,
+        &quot;operationId&quot; : &quot;billPay&quot;,
         &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;fromAccountId&quot;,
+          &quot;name&quot; : &quot;accountId&quot;,
           &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer funds source account&quot;,
+          &quot;description&quot; : &quot;Bill payment source account&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;toAccountId&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer funds target account&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }, {
           &quot;name&quot; : &quot;amount&quot;,
           &quot;in&quot; : &quot;query&quot;,
           &quot;description&quot; : &quot;Amount&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;number&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;string&quot;
-            }
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;number&quot;
           }
-        }
-      }
-    },
-    &quot;/setParameter/{name}/{value}&quot; : {
-      &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Misc&quot; ],
-        &quot;summary&quot; : &quot;Set Parameters&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;setParameter_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;name&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Parameter Name&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;value&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Parameter Value&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
         } ],
+        &quot;requestBody&quot; : {
+          &quot;description&quot; : &quot;Payee&quot;,
+          &quot;content&quot; : {
+            &quot;application/json&quot; : {
+              &quot;schema&quot; : {
+                &quot;$ref&quot; : &quot;#/components/schemas/Payee&quot;
+              }
+            },
+            &quot;application/xml&quot; : {
+              &quot;schema&quot; : {
+                &quot;$ref&quot; : &quot;#/components/schemas/Payee&quot;
+              }
+            }
+          },
+          &quot;required&quot; : true
+        },
         &quot;responses&quot; : {
           &quot;default&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;
-          }
-        }
-      }
-    },
-    &quot;/positions/{positionId}&quot; : {
-      &quot;get&quot; : {
-        &quot;tags&quot; : [ &quot;Positions&quot; ],
-        &quot;summary&quot; : &quot;Get Position by id&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getPosition_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;positionId&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Unique identifier for the position&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;$ref&quot; : &quot;#/definitions/Position&quot;
-            }
-          }
-        }
-      }
-    },
-    &quot;/transactions/{transactionId}&quot; : {
-      &quot;get&quot; : {
-        &quot;tags&quot; : [ &quot;Transactions&quot; ],
-        &quot;summary&quot; : &quot;Get the transaction for the id&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getTransaction_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;transactionId&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Unique identifier for the transaction&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;$ref&quot; : &quot;#/definitions/Transaction&quot;
-            }
-          }
-        }
-      }
-    },
-    &quot;/login/{username}/{password}&quot; : {
-      &quot;get&quot; : {
-        &quot;tags&quot; : [ &quot;Misc&quot; ],
-        &quot;summary&quot; : &quot;Login (john/demo)&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;login_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;username&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s user name&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;password&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s password&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;$ref&quot; : &quot;#/definitions/Customer&quot;
-            }
-          }
-        }
-      }
-    },
-    &quot;/accounts/{accountId}/transactions&quot; : {
-      &quot;get&quot; : {
-        &quot;tags&quot; : [ &quot;Accounts&quot;, &quot;Transactions&quot; ],
-        &quot;summary&quot; : &quot;Get the list of Transactions for the account&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getTransactions_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;accountId&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Account id&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/Transaction&quot;
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/BillPayResult&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/BillPayResult&quot;
+                }
               }
             }
           }
         }
       }
     },
-    &quot;/requestLoan&quot; : {
+    &quot;/customers/{customerId}/buyPosition&quot; : {
       &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Loans&quot; ],
-        &quot;summary&quot; : &quot;Request a loan&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;requestLoan_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;tags&quot; : [ &quot;Positions&quot; ],
+        &quot;summary&quot; : &quot;Buy a Position&quot;,
+        &quot;operationId&quot; : &quot;buyPosition&quot;,
         &quot;parameters&quot; : [ {
           &quot;name&quot; : &quot;customerId&quot;,
-          &quot;in&quot; : &quot;query&quot;,
+          &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Customer&#39;s id&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }, {
-          &quot;name&quot; : &quot;amount&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Amount&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;number&quot;
-        }, {
-          &quot;name&quot; : &quot;downPayment&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Downpayment for the loan&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;number&quot;
-        }, {
-          &quot;name&quot; : &quot;fromAccountId&quot;,
+          &quot;name&quot; : &quot;accountId&quot;,
           &quot;in&quot; : &quot;query&quot;,
           &quot;description&quot; : &quot;Customer funds source account&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;$ref&quot; : &quot;#/definitions/LoanResponse&quot;
-            }
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
           }
-        }
-      }
-    },
-    &quot;/createAccount&quot; : {
-      &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Customers&quot;, &quot;Accounts&quot; ],
-        &quot;summary&quot; : &quot;Create a new account&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;createAccount_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;customerId&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s id&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
         }, {
-          &quot;name&quot; : &quot;newAccountType&quot;,
+          &quot;name&quot; : &quot;name&quot;,
           &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Account type (CHECKING, SAVINGS, LOAN)&quot;,
+          &quot;description&quot; : &quot;Instrument&#39;s Name&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;fromAccountId&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer funds source account&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;$ref&quot; : &quot;#/definitions/Account&quot;
-            }
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
           }
-        }
-      }
-    },
-    &quot;/deposit&quot; : {
-      &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Accounts&quot; ],
-        &quot;summary&quot; : &quot;Deposit funds&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;deposit_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;accountId&quot;,
+        }, {
+          &quot;name&quot; : &quot;symbol&quot;,
           &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer funds target account&quot;,
+          &quot;description&quot; : &quot;Instrument&#39;s exchange symbol&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;amount&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Amount&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;number&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;string&quot;
-            }
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
           }
-        }
-      }
-    },
-    &quot;/accounts/{accountId}&quot; : {
-      &quot;get&quot; : {
-        &quot;tags&quot; : [ &quot;Accounts&quot; ],
-        &quot;summary&quot; : &quot;Get Account by Id&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getAccount_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;accountId&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Account id&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;$ref&quot; : &quot;#/definitions/Account&quot;
-            }
-          }
-        }
-      }
-    },
-    &quot;/customers/{customerId}&quot; : {
-      &quot;get&quot; : {
-        &quot;tags&quot; : [ &quot;Customers&quot; ],
-        &quot;summary&quot; : &quot;Get Customer Details&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getCustomer_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;customerId&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s id&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;$ref&quot; : &quot;#/definitions/Customer&quot;
-            }
-          }
-        }
-      }
-    },
-    &quot;/positions/{positionId}/{startDate}/{endDate}&quot; : {
-      &quot;get&quot; : {
-        &quot;tags&quot; : [ &quot;Positions&quot; ],
-        &quot;summary&quot; : &quot;Get Position history by id within a date range&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getPositionHistory_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;positionId&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Unique identifier for the position&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;startDate&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Search starting date&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;endDate&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Search ending date&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/HistoryPoint&quot;
-              }
-            }
-          }
-        }
-      }
-    },
-    &quot;/customers/{customerId}/sellPosition&quot; : {
-      &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Positions&quot; ],
-        &quot;summary&quot; : &quot;Sell a Position&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;sellPosition_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;customerId&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s id&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;accountId&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer funds target account&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;positionId&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Unique identifier for the position&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
         }, {
           &quot;name&quot; : &quot;shares&quot;,
           &quot;in&quot; : &quot;query&quot;,
           &quot;description&quot; : &quot;number of shares&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }, {
           &quot;name&quot; : &quot;pricePerShare&quot;,
           &quot;in&quot; : &quot;query&quot;,
           &quot;description&quot; : &quot;Price of each share&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;number&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
         } ],
         &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/Position&quot;
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Position&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Position&quot;
+                  }
+                }
               }
-            }
-          }
-        }
-      }
-    },
-    &quot;/customers/update/{customerId}&quot; : {
-      &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Customers&quot; ],
-        &quot;summary&quot; : &quot;Update customer information&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;updateCustomer_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;customerId&quot;,
-          &quot;in&quot; : &quot;path&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s id&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;firstName&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s given (first) name&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;lastName&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s surname (last name)&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;street&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Street Address including bilding number and apartment (if any)&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;city&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;City&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;state&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;US state or Region name&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;zipCode&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;ZIP code or province id&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;phoneNumber&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Contact Phone Number&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;ssn&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Social Security Number&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;username&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s user name&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;password&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer&#39;s password&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;string&quot;
-            }
-          }
-        }
-      }
-    },
-    &quot;/withdraw&quot; : {
-      &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Accounts&quot; ],
-        &quot;summary&quot; : &quot;Withdraw funds&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;withdraw_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;accountId&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Customer funds source account&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;amount&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Amount&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;number&quot;
-        } ],
-        &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;string&quot;
             }
           }
         }
@@ -68252,115 +67824,140 @@ Timestamp: 2022-11-15 11:25:00</notes>
       &quot;post&quot; : {
         &quot;tags&quot; : [ &quot;Database&quot; ],
         &quot;summary&quot; : &quot;Clean the Database&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;cleanDB_1&quot;,
-        &quot;parameters&quot; : [ ],
+        &quot;operationId&quot; : &quot;cleanDB&quot;,
         &quot;responses&quot; : {
           &quot;default&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : { },
+              &quot;application/json&quot; : { }
+            }
           }
         }
       }
     },
-    &quot;/initializeDB&quot; : {
+    &quot;/createAccount&quot; : {
       &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Database&quot; ],
-        &quot;summary&quot; : &quot;Initialize the Database&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;initializeDB_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ ],
-        &quot;responses&quot; : {
-          &quot;default&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;
-          }
-        }
-      }
-    },
-    &quot;/shutdownJmsListener&quot; : {
-      &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;JMS&quot; ],
-        &quot;summary&quot; : &quot;Stop JMS Listener&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;shutdownJmsListener_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ ],
-        &quot;responses&quot; : {
-          &quot;default&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;
-          }
-        }
-      }
-    },
-    &quot;/startupJmsListener&quot; : {
-      &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;JMS&quot; ],
-        &quot;summary&quot; : &quot;Start JMS Listener&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;startupJmsListener_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
-        &quot;parameters&quot; : [ ],
-        &quot;responses&quot; : {
-          &quot;default&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;
-          }
-        }
-      }
-    },
-    &quot;/customers/{customerId}/buyPosition&quot; : {
-      &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Positions&quot; ],
-        &quot;summary&quot; : &quot;Buy a Position&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;buyPosition_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;tags&quot; : [ &quot;Customers&quot;, &quot;Accounts&quot; ],
+        &quot;summary&quot; : &quot;Create a new account&quot;,
+        &quot;operationId&quot; : &quot;createAccount&quot;,
         &quot;parameters&quot; : [ {
           &quot;name&quot; : &quot;customerId&quot;,
-          &quot;in&quot; : &quot;path&quot;,
+          &quot;in&quot; : &quot;query&quot;,
           &quot;description&quot; : &quot;Customer&#39;s id&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }, {
-          &quot;name&quot; : &quot;accountId&quot;,
+          &quot;name&quot; : &quot;newAccountType&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Account type (CHECKING, SAVINGS, LOAN)&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;fromAccountId&quot;,
           &quot;in&quot; : &quot;query&quot;,
           &quot;description&quot; : &quot;Customer funds source account&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;name&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Instrument&#39;s Name&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;symbol&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Instrument&#39;s exchange symbol&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
-        }, {
-          &quot;name&quot; : &quot;shares&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;number of shares&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        }, {
-          &quot;name&quot; : &quot;pricePerShare&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Price of each share&quot;,
-          &quot;required&quot; : true,
-          &quot;type&quot; : &quot;number&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         } ],
         &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/Position&quot;
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Account&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Account&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/deposit&quot; : {
+      &quot;post&quot; : {
+        &quot;tags&quot; : [ &quot;Accounts&quot; ],
+        &quot;summary&quot; : &quot;Deposit funds&quot;,
+        &quot;operationId&quot; : &quot;deposit&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;accountId&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer funds target account&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;amount&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Amount&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;string&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;string&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/accounts/{accountId}&quot; : {
+      &quot;get&quot; : {
+        &quot;tags&quot; : [ &quot;Accounts&quot; ],
+        &quot;summary&quot; : &quot;Get Account by Id&quot;,
+        &quot;operationId&quot; : &quot;getAccount&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;accountId&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Account id&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Account&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Account&quot;
+                }
               }
             }
           }
@@ -68371,24 +67968,160 @@ Timestamp: 2022-11-15 11:25:00</notes>
       &quot;get&quot; : {
         &quot;tags&quot; : [ &quot;Customers&quot;, &quot;Accounts&quot; ],
         &quot;summary&quot; : &quot;Get Customer Accounts&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getAccounts_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;operationId&quot; : &quot;getAccounts&quot;,
         &quot;parameters&quot; : [ {
           &quot;name&quot; : &quot;customerId&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Customer&#39;s id&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         } ],
         &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/Account&quot;
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Account&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Account&quot;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/customers/{customerId}&quot; : {
+      &quot;get&quot; : {
+        &quot;tags&quot; : [ &quot;Customers&quot; ],
+        &quot;summary&quot; : &quot;Get Customer Details&quot;,
+        &quot;operationId&quot; : &quot;getCustomer&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;customerId&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s id&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Customer&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Customer&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/positions/{positionId}&quot; : {
+      &quot;get&quot; : {
+        &quot;tags&quot; : [ &quot;Positions&quot; ],
+        &quot;summary&quot; : &quot;Get Position by id&quot;,
+        &quot;operationId&quot; : &quot;getPosition&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;positionId&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Unique identifier for the position&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Position&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Position&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/positions/{positionId}/{startDate}/{endDate}&quot; : {
+      &quot;get&quot; : {
+        &quot;tags&quot; : [ &quot;Positions&quot; ],
+        &quot;summary&quot; : &quot;Get Position history by id within a date range&quot;,
+        &quot;operationId&quot; : &quot;getPositionHistory&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;positionId&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Unique identifier for the position&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;startDate&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Search starting date&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;endDate&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Search ending date&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/HistoryPoint&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/HistoryPoint&quot;
+                  }
+                }
               }
             }
           }
@@ -68399,24 +68132,110 @@ Timestamp: 2022-11-15 11:25:00</notes>
       &quot;get&quot; : {
         &quot;tags&quot; : [ &quot;Customers&quot;, &quot;Positions&quot; ],
         &quot;summary&quot; : &quot;Get Positions for Customer&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getPositions_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;operationId&quot; : &quot;getPositions&quot;,
         &quot;parameters&quot; : [ {
           &quot;name&quot; : &quot;customerId&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Customer&#39;s id&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         } ],
         &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/Position&quot;
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Position&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Position&quot;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/transactions/{transactionId}&quot; : {
+      &quot;get&quot; : {
+        &quot;tags&quot; : [ &quot;Transactions&quot; ],
+        &quot;summary&quot; : &quot;Get the transaction for the id&quot;,
+        &quot;operationId&quot; : &quot;getTransaction&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;transactionId&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Unique identifier for the transaction&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/accounts/{accountId}/transactions&quot; : {
+      &quot;get&quot; : {
+        &quot;tags&quot; : [ &quot;Accounts&quot;, &quot;Transactions&quot; ],
+        &quot;summary&quot; : &quot;Get the list of Transactions for the account&quot;,
+        &quot;operationId&quot; : &quot;getTransactions&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;accountId&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Account id&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
               }
             }
           }
@@ -68427,30 +68246,44 @@ Timestamp: 2022-11-15 11:25:00</notes>
       &quot;get&quot; : {
         &quot;tags&quot; : [ &quot;Accounts&quot;, &quot;Transactions&quot; ],
         &quot;summary&quot; : &quot;Create transactions by amount for account&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getTransactionsByAmount_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;operationId&quot; : &quot;getTransactionsByAmount&quot;,
         &quot;parameters&quot; : [ {
           &quot;name&quot; : &quot;accountId&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Account id&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }, {
           &quot;name&quot; : &quot;amount&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Amount&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;number&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
         } ],
         &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/Transaction&quot;
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
               }
             }
           }
@@ -68461,36 +68294,52 @@ Timestamp: 2022-11-15 11:25:00</notes>
       &quot;get&quot; : {
         &quot;tags&quot; : [ &quot;Accounts&quot;, &quot;Transactions&quot; ],
         &quot;summary&quot; : &quot;Fetch transactions by month and type for account&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getTransactionsByMonthAndType_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;operationId&quot; : &quot;getTransactionsByMonthAndType&quot;,
         &quot;parameters&quot; : [ {
           &quot;name&quot; : &quot;accountId&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Account id&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }, {
           &quot;name&quot; : &quot;month&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Month to use for the search range&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
         }, {
           &quot;name&quot; : &quot;type&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Transaction type (CREDIT, DEBIT)&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
         } ],
         &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/Transaction&quot;
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
               }
             }
           }
@@ -68501,36 +68350,52 @@ Timestamp: 2022-11-15 11:25:00</notes>
       &quot;get&quot; : {
         &quot;tags&quot; : [ &quot;Accounts&quot;, &quot;Transactions&quot; ],
         &quot;summary&quot; : &quot;Fetch transactions for date range for account&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getTransactionsByToFromDate_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;operationId&quot; : &quot;getTransactionsByToFromDate&quot;,
         &quot;parameters&quot; : [ {
           &quot;name&quot; : &quot;accountId&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Account id&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }, {
           &quot;name&quot; : &quot;fromDate&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Search starting date&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
         }, {
           &quot;name&quot; : &quot;toDate&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Search ending date&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
         } ],
         &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/Transaction&quot;
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
               }
             }
           }
@@ -68541,283 +68406,722 @@ Timestamp: 2022-11-15 11:25:00</notes>
       &quot;get&quot; : {
         &quot;tags&quot; : [ &quot;Accounts&quot;, &quot;Transactions&quot; ],
         &quot;summary&quot; : &quot;Fetch transactions for a specific date for account&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;getTransactionsOnDate_1&quot;,
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;operationId&quot; : &quot;getTransactionsOnDate&quot;,
         &quot;parameters&quot; : [ {
           &quot;name&quot; : &quot;accountId&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Account id&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }, {
           &quot;name&quot; : &quot;onDate&quot;,
           &quot;in&quot; : &quot;path&quot;,
           &quot;description&quot; : &quot;Search specific date&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;string&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
         } ],
         &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;type&quot; : &quot;array&quot;,
-              &quot;items&quot; : {
-                &quot;$ref&quot; : &quot;#/definitions/Transaction&quot;
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Transaction&quot;
+                  }
+                }
               }
             }
           }
         }
       }
     },
-    &quot;/billpay&quot; : {
+    &quot;/initializeDB&quot; : {
       &quot;post&quot; : {
-        &quot;tags&quot; : [ &quot;Accounts&quot; ],
-        &quot;summary&quot; : &quot;Pay bill&quot;,
-        &quot;description&quot; : &quot;&quot;,
-        &quot;operationId&quot; : &quot;billPay_1&quot;,
-        &quot;consumes&quot; : [ &quot;application/json&quot;, &quot;application/xml&quot; ],
-        &quot;produces&quot; : [ &quot;application/xml&quot;, &quot;application/json&quot; ],
+        &quot;tags&quot; : [ &quot;Database&quot; ],
+        &quot;summary&quot; : &quot;Initialize the Database&quot;,
+        &quot;operationId&quot; : &quot;initializeDB&quot;,
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : { },
+              &quot;application/json&quot; : { }
+            }
+          }
+        }
+      }
+    },
+    &quot;/login/{username}/{password}&quot; : {
+      &quot;get&quot; : {
+        &quot;tags&quot; : [ &quot;Misc&quot; ],
+        &quot;summary&quot; : &quot;Login (john/demo)&quot;,
+        &quot;operationId&quot; : &quot;login&quot;,
         &quot;parameters&quot; : [ {
-          &quot;name&quot; : &quot;accountId&quot;,
-          &quot;in&quot; : &quot;query&quot;,
-          &quot;description&quot; : &quot;Bill payment source account&quot;,
+          &quot;name&quot; : &quot;username&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s user name&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;password&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s password&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Customer&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/Customer&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/requestLoan&quot; : {
+      &quot;post&quot; : {
+        &quot;tags&quot; : [ &quot;Loans&quot; ],
+        &quot;summary&quot; : &quot;Request a loan&quot;,
+        &quot;operationId&quot; : &quot;requestLoan&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;customerId&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s id&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }, {
           &quot;name&quot; : &quot;amount&quot;,
           &quot;in&quot; : &quot;query&quot;,
           &quot;description&quot; : &quot;Amount&quot;,
           &quot;required&quot; : true,
-          &quot;type&quot; : &quot;number&quot;
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
         }, {
-          &quot;in&quot; : &quot;body&quot;,
-          &quot;name&quot; : &quot;body&quot;,
-          &quot;description&quot; : &quot;Payee&quot;,
+          &quot;name&quot; : &quot;downPayment&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Downpayment for the loan&quot;,
           &quot;required&quot; : true,
           &quot;schema&quot; : {
-            &quot;$ref&quot; : &quot;#/definitions/Payee&quot;
+            &quot;type&quot; : &quot;number&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;fromAccountId&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer funds source account&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
           }
         } ],
         &quot;responses&quot; : {
-          &quot;200&quot; : {
-            &quot;description&quot; : &quot;successful operation&quot;,
-            &quot;schema&quot; : {
-              &quot;$ref&quot; : &quot;#/definitions/BillPayResult&quot;
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/LoanResponse&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;$ref&quot; : &quot;#/components/schemas/LoanResponse&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/customers/{customerId}/sellPosition&quot; : {
+      &quot;post&quot; : {
+        &quot;tags&quot; : [ &quot;Positions&quot; ],
+        &quot;summary&quot; : &quot;Sell a Position&quot;,
+        &quot;operationId&quot; : &quot;sellPosition&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;customerId&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s id&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;accountId&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer funds target account&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;positionId&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Unique identifier for the position&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;shares&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;number of shares&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;pricePerShare&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Price of each share&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Position&quot;
+                  }
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;array&quot;,
+                  &quot;items&quot; : {
+                    &quot;$ref&quot; : &quot;#/components/schemas/Position&quot;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/setParameter/{name}/{value}&quot; : {
+      &quot;post&quot; : {
+        &quot;tags&quot; : [ &quot;Misc&quot; ],
+        &quot;summary&quot; : &quot;Set Parameters&quot;,
+        &quot;operationId&quot; : &quot;setParameter&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;name&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Parameter Name&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;value&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Parameter Value&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : { },
+              &quot;application/json&quot; : { }
+            }
+          }
+        }
+      }
+    },
+    &quot;/shutdownJmsListener&quot; : {
+      &quot;post&quot; : {
+        &quot;tags&quot; : [ &quot;JMS&quot; ],
+        &quot;summary&quot; : &quot;Stop JMS Listener&quot;,
+        &quot;operationId&quot; : &quot;shutdownJmsListener&quot;,
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : { },
+              &quot;application/json&quot; : { }
+            }
+          }
+        }
+      }
+    },
+    &quot;/startupJmsListener&quot; : {
+      &quot;post&quot; : {
+        &quot;tags&quot; : [ &quot;JMS&quot; ],
+        &quot;summary&quot; : &quot;Start JMS Listener&quot;,
+        &quot;operationId&quot; : &quot;startupJmsListener&quot;,
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : { },
+              &quot;application/json&quot; : { }
+            }
+          }
+        }
+      }
+    },
+    &quot;/transfer&quot; : {
+      &quot;post&quot; : {
+        &quot;tags&quot; : [ &quot;Accounts&quot; ],
+        &quot;summary&quot; : &quot;Transfer funds&quot;,
+        &quot;operationId&quot; : &quot;transfer&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;fromAccountId&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer funds source account&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;toAccountId&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer funds target account&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;amount&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Amount&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;string&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;string&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/customers/update/{customerId}&quot; : {
+      &quot;post&quot; : {
+        &quot;tags&quot; : [ &quot;Customers&quot; ],
+        &quot;summary&quot; : &quot;Update customer information&quot;,
+        &quot;operationId&quot; : &quot;updateCustomer&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;customerId&quot;,
+          &quot;in&quot; : &quot;path&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s id&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;firstName&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s given (first) name&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;lastName&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s surname (last name)&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;street&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Street Address including bilding number and apartment (if any)&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;city&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;City&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;state&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;US state or Region name&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;zipCode&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;ZIP code or province id&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;phoneNumber&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Contact Phone Number&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;ssn&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Social Security Number&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;username&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s user name&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;password&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer&#39;s password&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;string&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;string&quot;
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    &quot;/withdraw&quot; : {
+      &quot;post&quot; : {
+        &quot;tags&quot; : [ &quot;Accounts&quot; ],
+        &quot;summary&quot; : &quot;Withdraw funds&quot;,
+        &quot;operationId&quot; : &quot;withdraw&quot;,
+        &quot;parameters&quot; : [ {
+          &quot;name&quot; : &quot;accountId&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Customer funds source account&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
+        }, {
+          &quot;name&quot; : &quot;amount&quot;,
+          &quot;in&quot; : &quot;query&quot;,
+          &quot;description&quot; : &quot;Amount&quot;,
+          &quot;required&quot; : true,
+          &quot;schema&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
+        } ],
+        &quot;responses&quot; : {
+          &quot;default&quot; : {
+            &quot;description&quot; : &quot;default response&quot;,
+            &quot;content&quot; : {
+              &quot;application/xml&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;string&quot;
+                }
+              },
+              &quot;application/json&quot; : {
+                &quot;schema&quot; : {
+                  &quot;type&quot; : &quot;string&quot;
+                }
+              }
             }
           }
         }
       }
     }
   },
-  &quot;definitions&quot; : {
-    &quot;Position&quot; : {
-      &quot;type&quot; : &quot;object&quot;,
-      &quot;properties&quot; : {
-        &quot;positionId&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+  &quot;components&quot; : {
+    &quot;schemas&quot; : {
+      &quot;BillPayResult&quot; : {
+        &quot;type&quot; : &quot;object&quot;,
+        &quot;properties&quot; : {
+          &quot;payeeName&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;amount&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          },
+          &quot;accountId&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         },
-        &quot;customerId&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        },
-        &quot;name&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;symbol&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;shares&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        },
-        &quot;purchasePrice&quot; : {
-          &quot;type&quot; : &quot;number&quot;
+        &quot;xml&quot; : {
+          &quot;name&quot; : &quot;billPayResult&quot;
         }
       },
-      &quot;xml&quot; : {
-        &quot;name&quot; : &quot;position&quot;
-      }
-    },
-    &quot;Transaction&quot; : {
-      &quot;type&quot; : &quot;object&quot;,
-      &quot;properties&quot; : {
-        &quot;id&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        },
-        &quot;accountId&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        },
-        &quot;type&quot; : {
-          &quot;type&quot; : &quot;string&quot;,
-          &quot;enum&quot; : [ &quot;Credit&quot;, &quot;Debit&quot; ]
-        },
-        &quot;date&quot; : {
-          &quot;type&quot; : &quot;string&quot;,
-          &quot;format&quot; : &quot;date-time&quot;
-        },
-        &quot;amount&quot; : {
-          &quot;type&quot; : &quot;number&quot;
-        },
-        &quot;description&quot; : {
-          &quot;type&quot; : &quot;string&quot;
+      &quot;Address&quot; : {
+        &quot;type&quot; : &quot;object&quot;,
+        &quot;properties&quot; : {
+          &quot;street&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;city&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;state&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;zipCode&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
         }
       },
-      &quot;xml&quot; : {
-        &quot;name&quot; : &quot;transaction&quot;
-      }
-    },
-    &quot;Address&quot; : {
-      &quot;type&quot; : &quot;object&quot;,
-      &quot;properties&quot; : {
-        &quot;street&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;city&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;state&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;zipCode&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        }
-      }
-    },
-    &quot;Customer&quot; : {
-      &quot;type&quot; : &quot;object&quot;,
-      &quot;properties&quot; : {
-        &quot;id&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        },
-        &quot;firstName&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;lastName&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;address&quot; : {
-          &quot;$ref&quot; : &quot;#/definitions/Address&quot;
-        },
-        &quot;phoneNumber&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;ssn&quot; : {
-          &quot;type&quot; : &quot;string&quot;
+      &quot;Payee&quot; : {
+        &quot;type&quot; : &quot;object&quot;,
+        &quot;properties&quot; : {
+          &quot;name&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;address&quot; : {
+            &quot;$ref&quot; : &quot;#/components/schemas/Address&quot;
+          },
+          &quot;phoneNumber&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;accountNumber&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         }
       },
-      &quot;xml&quot; : {
-        &quot;name&quot; : &quot;customer&quot;
-      }
-    },
-    &quot;LoanResponse&quot; : {
-      &quot;type&quot; : &quot;object&quot;,
-      &quot;required&quot; : [ &quot;loanProviderName&quot; ],
-      &quot;properties&quot; : {
-        &quot;responseDate&quot; : {
-          &quot;type&quot; : &quot;string&quot;,
-          &quot;format&quot; : &quot;date-time&quot;
+      &quot;Position&quot; : {
+        &quot;type&quot; : &quot;object&quot;,
+        &quot;properties&quot; : {
+          &quot;positionId&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          },
+          &quot;customerId&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          },
+          &quot;name&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;symbol&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;shares&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          },
+          &quot;purchasePrice&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
         },
-        &quot;loanProviderName&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;approved&quot; : {
-          &quot;type&quot; : &quot;boolean&quot;
-        },
-        &quot;message&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;accountId&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+        &quot;xml&quot; : {
+          &quot;name&quot; : &quot;position&quot;
         }
       },
-      &quot;xml&quot; : {
-        &quot;name&quot; : &quot;loanResponse&quot;,
-        &quot;namespace&quot; : &quot;http://service.parabank.parasoft.com/&quot;
-      }
-    },
-    &quot;Account&quot; : {
-      &quot;type&quot; : &quot;object&quot;,
-      &quot;properties&quot; : {
-        &quot;id&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+      &quot;Account&quot; : {
+        &quot;type&quot; : &quot;object&quot;,
+        &quot;properties&quot; : {
+          &quot;id&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          },
+          &quot;customerId&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          },
+          &quot;type&quot; : {
+            &quot;type&quot; : &quot;string&quot;,
+            &quot;enum&quot; : [ &quot;CHECKING&quot;, &quot;SAVINGS&quot;, &quot;LOAN&quot; ]
+          },
+          &quot;balance&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
         },
-        &quot;customerId&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
-        },
-        &quot;type&quot; : {
-          &quot;type&quot; : &quot;string&quot;,
-          &quot;enum&quot; : [ &quot;CHECKING&quot;, &quot;SAVINGS&quot;, &quot;LOAN&quot; ]
-        },
-        &quot;balance&quot; : {
-          &quot;type&quot; : &quot;number&quot;
+        &quot;xml&quot; : {
+          &quot;name&quot; : &quot;account&quot;
         }
       },
-      &quot;xml&quot; : {
-        &quot;name&quot; : &quot;account&quot;
-      }
-    },
-    &quot;HistoryPoint&quot; : {
-      &quot;type&quot; : &quot;object&quot;,
-      &quot;properties&quot; : {
-        &quot;symbol&quot; : {
-          &quot;type&quot; : &quot;string&quot;
+      &quot;Customer&quot; : {
+        &quot;type&quot; : &quot;object&quot;,
+        &quot;properties&quot; : {
+          &quot;id&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          },
+          &quot;firstName&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;lastName&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;address&quot; : {
+            &quot;$ref&quot; : &quot;#/components/schemas/Address&quot;
+          },
+          &quot;phoneNumber&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;ssn&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
         },
-        &quot;date&quot; : {
-          &quot;type&quot; : &quot;string&quot;,
-          &quot;format&quot; : &quot;date-time&quot;
-        },
-        &quot;closingPrice&quot; : {
-          &quot;type&quot; : &quot;number&quot;
+        &quot;xml&quot; : {
+          &quot;name&quot; : &quot;customer&quot;
         }
       },
-      &quot;xml&quot; : {
-        &quot;name&quot; : &quot;historyPoint&quot;,
-        &quot;namespace&quot; : &quot;http://service.parabank.parasoft.com/&quot;
-      }
-    },
-    &quot;BillPayResult&quot; : {
-      &quot;type&quot; : &quot;object&quot;,
-      &quot;properties&quot; : {
-        &quot;payeeName&quot; : {
-          &quot;type&quot; : &quot;string&quot;
+      &quot;HistoryPoint&quot; : {
+        &quot;type&quot; : &quot;object&quot;,
+        &quot;properties&quot; : {
+          &quot;symbol&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;date&quot; : {
+            &quot;type&quot; : &quot;string&quot;,
+            &quot;format&quot; : &quot;date-time&quot;
+          },
+          &quot;closingPrice&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          }
         },
-        &quot;amount&quot; : {
-          &quot;type&quot; : &quot;number&quot;
-        },
-        &quot;accountId&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+        &quot;xml&quot; : {
+          &quot;name&quot; : &quot;historyPoint&quot;,
+          &quot;namespace&quot; : &quot;http://service.parabank.parasoft.com/&quot;
         }
       },
-      &quot;xml&quot; : {
-        &quot;name&quot; : &quot;billPayResult&quot;
-      }
-    },
-    &quot;Payee&quot; : {
-      &quot;type&quot; : &quot;object&quot;,
-      &quot;properties&quot; : {
-        &quot;name&quot; : {
-          &quot;type&quot; : &quot;string&quot;
+      &quot;Transaction&quot; : {
+        &quot;type&quot; : &quot;object&quot;,
+        &quot;properties&quot; : {
+          &quot;id&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          },
+          &quot;accountId&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          },
+          &quot;type&quot; : {
+            &quot;type&quot; : &quot;string&quot;,
+            &quot;enum&quot; : [ &quot;Credit&quot;, &quot;Debit&quot; ]
+          },
+          &quot;date&quot; : {
+            &quot;type&quot; : &quot;string&quot;,
+            &quot;format&quot; : &quot;date-time&quot;
+          },
+          &quot;amount&quot; : {
+            &quot;type&quot; : &quot;number&quot;
+          },
+          &quot;description&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          }
         },
-        &quot;address&quot; : {
-          &quot;$ref&quot; : &quot;#/definitions/Address&quot;
+        &quot;xml&quot; : {
+          &quot;name&quot; : &quot;transaction&quot;
+        }
+      },
+      &quot;LoanResponse&quot; : {
+        &quot;required&quot; : [ &quot;loanProviderName&quot; ],
+        &quot;type&quot; : &quot;object&quot;,
+        &quot;properties&quot; : {
+          &quot;responseDate&quot; : {
+            &quot;type&quot; : &quot;string&quot;,
+            &quot;format&quot; : &quot;date-time&quot;
+          },
+          &quot;loanProviderName&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;approved&quot; : {
+            &quot;type&quot; : &quot;boolean&quot;
+          },
+          &quot;message&quot; : {
+            &quot;type&quot; : &quot;string&quot;
+          },
+          &quot;accountId&quot; : {
+            &quot;type&quot; : &quot;integer&quot;,
+            &quot;format&quot; : &quot;int32&quot;
+          }
         },
-        &quot;phoneNumber&quot; : {
-          &quot;type&quot; : &quot;string&quot;
-        },
-        &quot;accountNumber&quot; : {
-          &quot;type&quot; : &quot;integer&quot;,
-          &quot;format&quot; : &quot;int32&quot;
+        &quot;xml&quot; : {
+          &quot;name&quot; : &quot;loanResponse&quot;,
+          &quot;namespace&quot; : &quot;http://service.parabank.parasoft.com/&quot;
         }
       }
     }
@@ -68832,14 +69136,14 @@ Timestamp: 2022-11-15 11:25:00</notes>
          <operations size="3">
           <operation index="1">true</operation>
          </operations>
-         <identifier>definitions</identifier>
+         <identifier>components.schemas</identifier>
         </IgnoredJSONDiff>
         <IgnoredJSONDiff className="webtool.ecmascript.json.IgnoredJSONDiff" version="1.2">
          <operations size="3">
           <operation index="1">true</operation>
           <operation index="2">true</operation>
          </operations>
-         <identifier>definitions.Payee.properties</identifier>
+         <identifier>components.schemas.Payee.properties</identifier>
         </IgnoredJSONDiff>
        </JSONDiffer>
        <mode>3</mode>
@@ -68868,6 +69172,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
         <type>application/json</type>
        </TextUsable>
        <InputUsableDataSource className="webtool.tool.InputUsableDataSource" version="1">
+        <columnName>cartId</columnName>
        </InputUsableDataSource>
       </InputUsable>
       <mode>Literal</mode>
@@ -68996,7 +69301,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
         <transport>1</transport>
@@ -69389,7 +69694,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
           </IgnoredKeyValues>
          </ControlSource>
         </TextDiffer>
-        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
          <source>true</source>
          <ControlSource className="webtool.diff.ControlSource" version="1.6">
           <IgnoredKeyValues className="com.parasoft.data.IgnoredKeyValues" version="1.2">
@@ -69399,8 +69704,6 @@ Timestamp: 2022-11-15 11:25:00</notes>
          </XMLUnitEngine>
          <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
          </VMToolsXMLDiffEngine>
-         <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-         </ExamXMLDiffEngine>
          <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
           <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
            <rootNodeExists>true</rootNodeExists>
@@ -69585,7 +69888,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
          </UserMethod>
         </ScriptedValue>
         <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-         <value>http://localhost:8080/parabank/services/bank</value>
+         <value>http://localhost:8080/services/bank</value>
         </WadlTestValue>
        </MultiValue>
       </RESTClient>
@@ -69675,7 +69978,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
        </DefaultCustomTimeout>
        <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
        </DefaultCustomSoapVersion>
-       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+       <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
        </DefaultCustomAttachment>
        <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
         <transport>1</transport>
@@ -70068,7 +70371,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
           </IgnoredKeyValues>
          </ControlSource>
         </TextDiffer>
-        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+        <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
          <source>true</source>
          <ControlSource className="webtool.diff.ControlSource" version="1.6">
           <IgnoredKeyValues className="com.parasoft.data.IgnoredKeyValues" version="1.2">
@@ -70078,8 +70381,6 @@ Timestamp: 2022-11-15 11:25:00</notes>
          </XMLUnitEngine>
          <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
          </VMToolsXMLDiffEngine>
-         <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-         </ExamXMLDiffEngine>
          <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
           <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
            <rootNodeExists>true</rootNodeExists>
@@ -70252,7 +70553,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
          </UserMethod>
         </ScriptedValue>
         <WadlTestValue className="webtool.messaging.wadl.WadlTestValue" version="1.1">
-         <value>http://localhost:8080/parabank/services/bank</value>
+         <value>http://localhost:8080/services/bank</value>
         </WadlTestValue>
        </MultiValue>
       </RESTClient>
@@ -70344,7 +70645,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
      </DefaultCustomTimeout>
      <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
      </DefaultCustomSoapVersion>
-     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
      </DefaultCustomAttachment>
      <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
       <transport>1</transport>
@@ -70906,7 +71207,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
      </DefaultCustomTimeout>
      <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
      </DefaultCustomSoapVersion>
-     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
      </DefaultCustomAttachment>
      <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
       <transport>1</transport>
@@ -71000,7 +71301,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        <transport>1</transport>
@@ -73035,7 +73336,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
      </DefaultCustomTimeout>
      <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
      </DefaultCustomSoapVersion>
-     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+     <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
      </DefaultCustomAttachment>
      <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
       <transport>1</transport>
@@ -73129,7 +73430,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        <transport>1</transport>
@@ -73323,7 +73624,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
            </IgnoredKeyValues>
           </ControlSource>
          </TextDiffer>
-         <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+         <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
           <source>true</source>
           <ControlSource className="webtool.diff.ControlSource" version="1.6">
            <controls size="1">
@@ -73460,8 +73761,6 @@ Timestamp: 2022-11-15 11:25:00</notes>
           </XMLUnitEngine>
           <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
           </VMToolsXMLDiffEngine>
-          <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-          </ExamXMLDiffEngine>
           <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
            <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
             <rootNodeExists>true</rootNodeExists>
@@ -73606,7 +73905,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
       </DefaultCustomTimeout>
       <DefaultCustomSoapVersion className="webtool.tool.DefaultCustomSoapVersion" version="1.1.1">
       </DefaultCustomSoapVersion>
-      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.1.1">
+      <DefaultCustomAttachment className="webtool.tool.DefaultCustomAttachment" version="1.2.1">
       </DefaultCustomAttachment>
       <DefaultCustomTransport className="webtool.tool.DefaultCustomTransport" version="1.1.1">
        <transport>1</transport>
@@ -73720,7 +74019,7 @@ Timestamp: 2022-11-15 11:25:00</notes>
            </IgnoredKeyValues>
           </ControlSource>
          </TextDiffer>
-         <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.1.1">
+         <XMLDifferNew className="webtool.diff.XMLDifferNew" version="1.2.1">
           <source>true</source>
           <ControlSource className="webtool.diff.ControlSource" version="1.6">
            <controls size="1">
@@ -73777,8 +74076,6 @@ Timestamp: 2022-11-15 11:25:00</notes>
           </XMLUnitEngine>
           <VMToolsXMLDiffEngine className="webtool.diff.VMToolsXMLDiffEngine" version="1.1">
           </VMToolsXMLDiffEngine>
-          <ExamXMLDiffEngine className="webtool.diff.examxml.ExamXMLDiffEngine" version="1.1">
-          </ExamXMLDiffEngine>
           <FormXMLDiffControlSource className="webtool.diff.FormXMLDiffControlSource" version="1.1">
            <XMLBuilder className="webtool.xml.builder.XMLBuilder" version="6.6">
             <rootNodeExists>true</rootNodeExists>

@@ -7,16 +7,17 @@
 		xmlns:tx="http://www.springframework.org/schema/tx"
 		xmlns:jaxws="http://cxf.apache.org/jaxws"
 		xsi:schemaLocation="http://www.springframework.org/schema/beans
-			http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+			https://www.springframework.org/schema/beans/spring-beans.xsd
 			http://www.springframework.org/schema/aop
-			http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+			http://www.springframework.org/schema/aop/spring-aop.xsd
 			http://www.springframework.org/schema/tx
-			http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+			http://www.springframework.org/schema/tx/spring-tx.xsd
 			http://cxf.apache.org/jaxws
 			http://cxf.apache.org/schemas/jaxws.xsd
-			http://cxf.apache.org/jaxrs http://cxf.apache.org/schemas/jaxrs.xsd
+			http://cxf.apache.org/jaxrs 
+			https://cxf.apache.org/schemas/jaxrs.xsd
 			http://www.springframework.org/schema/util
-			http://www.springframework.org/schema/util/spring-util-2.0.xsd">
+			http://www.springframework.org/schema/util/spring-util.xsd">
 
 	<!-- the context definition for the cxf application -->
 
@@ -33,7 +34,7 @@
 
 	<!-- ======================= PARABANK SOAP SERVICES ==================== -->
 
-	<jaxws:endpoint id="paraBankSOAP" implementor="#paraBankService" address="/ParaBank">
+	<jaxws:endpoint id="paraBankSOAP" implementor="#paraBankService" address="/ParaBank" >
 		<jaxws:serviceFactory>
 			<bean class="org.apache.cxf.jaxws.support.JaxWsServiceFactoryBean">
 				<property name="serviceConfigurations">
@@ -160,7 +161,7 @@
 		</jaxrs:providers>
 
 		<jaxrs:features>
-			<ref bean="swagger2Feature" />
+			<ref bean="openApiFeature" />
 		</jaxrs:features>
 
 	</jaxrs:server>
@@ -179,14 +180,15 @@
 	<bean id="cors-filter" class="org.apache.cxf.rs.security.cors.CrossOriginResourceSharingFilter"/>
 
   <!-- JAXRS providers -->
-	<bean id="jsonProviderJackson" class="com.fasterxml.jackson.jaxrs.json.JacksonJaxbJsonProvider" />
-
-	<!-- CXF Swagger2Feature -->
-	<bean id="swagger2Feature" class="org.apache.cxf.jaxrs.swagger.Swagger2Feature">
-		<property name="resourcePackage" value="io.swagger.resources,com.parasoft.parabank.service" />
-		<property name="scan" value="true" />
-		<property name="prettyPrint" value="true" />
-	</bean>
+	<bean id="jsonProviderJackson" class="com.fasterxml.jackson.jakarta.rs.json.JacksonJsonProvider" />
+	
+	<!-- CXF OpenAPIFeature -->
+	    <bean id="openApiFeature" class="org.apache.cxf.jaxrs.openapi.OpenApiFeature">
+        <property name="title" value="Sample REST Application" />
+        <property name="useContextBasedConfig" value="true" />
+        <property name="scan" value="false" />
+        <property name="scannerClass" value="io.swagger.v3.jaxrs2.integration.JaxrsApplicationScanner"/>
+    </bean>
 
 	<bean id="paraBankService" class="com.parasoft.parabank.service.ParaBankServiceImpl">
 		<property name="adminManager" ref="adminManager" />

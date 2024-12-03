@@ -9,18 +9,18 @@ package com.parasoft.parabank.service;
 
 import java.math.BigDecimal;
 
-import javax.ws.rs.Consumes;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.QueryParam;
-import javax.ws.rs.core.MediaType;
+import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.POST;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.QueryParam;
+import jakarta.ws.rs.core.MediaType;
 
 import com.parasoft.parabank.domain.BillPayResult;
 import com.parasoft.parabank.domain.Payee;
 
-import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiParam;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
 
 public interface IBillPayService extends ParaBankServiceConstants {
 
@@ -34,12 +34,12 @@ public interface IBillPayService extends ParaBankServiceConstants {
      */
     @POST
     @Path("/billpay")
-    @ApiOperation(value = "Pay bill", tags = { ParaBankServiceConstants.ACCOUNTS })
+    @Operation(summary = "Pay bill", tags = { ParaBankServiceConstants.ACCOUNTS })
     @Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON })
     @Consumes({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     BillPayResult billPay(
-            @ApiParam(value = BILL_PAY_ACCOUNT_ID_DESC, required = true) @QueryParam(ACCOUNT_ID) int accountId,
-            @ApiParam(value = AMOUNT_DESC, required = true) @QueryParam("amount") BigDecimal amount,
-            @ApiParam(value = "Payee", required = true) Payee Payee) throws ParaBankServiceException;
+            @Parameter(description = BILL_PAY_ACCOUNT_ID_DESC, required = true) @QueryParam(ACCOUNT_ID) int accountId,
+            @Parameter(description = AMOUNT_DESC, required = true) @QueryParam("amount") BigDecimal amount,
+            @Parameter(description = "Payee", required = true) Payee Payee) throws ParaBankServiceException;
 
 }

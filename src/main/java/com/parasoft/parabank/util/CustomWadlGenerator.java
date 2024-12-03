@@ -3,13 +3,13 @@ package com.parasoft.parabank.util;
 import java.util.ArrayList;
 import java.util.List;
 
-import javax.ws.rs.core.UriInfo;
+import jakarta.ws.rs.core.UriInfo;
 
 import org.apache.cxf.jaxrs.model.ClassResourceInfo;
 import org.apache.cxf.jaxrs.model.wadl.WadlGenerator;
 import org.apache.cxf.message.Message;
 
-import io.swagger.jaxrs.listing.ApiListingResource;
+import io.swagger.v3.jaxrs2.integration.resources.OpenApiResource;
 
 public class CustomWadlGenerator extends WadlGenerator {
 
@@ -21,7 +21,7 @@ public class CustomWadlGenerator extends WadlGenerator {
         List<ClassResourceInfo> copy = new ArrayList<>(resources.size());
         for (ClassResourceInfo resource : resources) {
             // Filter out ApiListingResource, which does not make sense to include in our WADL.
-            if (!ApiListingResource.class.isAssignableFrom(resource.getResourceClass())) {
+            if (!OpenApiResource.class.isAssignableFrom(resource.getResourceClass())) {
                 copy.add(resource);
             }
         }

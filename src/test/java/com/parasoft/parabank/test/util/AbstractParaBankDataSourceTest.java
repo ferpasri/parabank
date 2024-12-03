@@ -17,7 +17,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import javax.annotation.Resource;
+import jakarta.annotation.Resource;
 import javax.sql.DataSource;
 
 import org.junit.After;
@@ -149,7 +149,7 @@ public abstract class AbstractParaBankDataSourceTest extends JdbcDaoSupport {
     @Rule
     public WireMockRule wireMockRule = new WireMockRule(19089);
 
-    @javax.annotation.Resource(name = "resources")
+    @jakarta.annotation.Resource(name = "resources")
     private List<LoanRequestTestConfig> resources;
 
     @Resource(name = "adminDao")
@@ -446,6 +446,8 @@ public abstract class AbstractParaBankDataSourceTest extends JdbcDaoSupport {
         ModelAndView mav;
         aRequest.setMethod("GET");
         aRequest.setServletPath(getPath());
+        aRequest.setAttribute(org.springframework.web.util.WebUtils.INCLUDE_REQUEST_URI_ATTRIBUTE, getPath());
+        
         final RequestMappingHandlerMapping mapping = getHandlerMapping();
         final HandlerExecutionChain chain = mapping.getHandler(aRequest);
         handler = chain.getHandler();
@@ -459,6 +461,7 @@ public abstract class AbstractParaBankDataSourceTest extends JdbcDaoSupport {
         ModelAndView mav;
         aRequest.setMethod("POST");
         aRequest.setServletPath(getPath());
+        aRequest.setAttribute(org.springframework.web.util.WebUtils.INCLUDE_REQUEST_URI_ATTRIBUTE, getPath());
         if (form != null) {
             aRequest.getSession().setAttribute(getFormName(), form);
         }
