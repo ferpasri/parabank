@@ -27,11 +27,11 @@ jobs:
       - name: Wait until Parabank web is ready
         run: |
           MAX_WAIT=120
-          INTERVAL=2
+          INTERVAL=1
           echo "Waiting for Parabank to be fully up and running..."
           
           for i in $(seq 1 $MAX_WAIT); do
-            if [ "$(curl -s -o /dev/null -w '%{http_code}' http://localhost:8080/parabank/)" -eq 200 ]; then
+            if [ "$(curl -s -o /dev/null -w '%{http_code}' http://localhost:8080/parabank/index.htm)" -eq 200 ]; then
               echo "Parabank is up and running."
               exit 0
             fi
