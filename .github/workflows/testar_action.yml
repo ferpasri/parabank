@@ -11,11 +11,13 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Java 11
+
+      # Set Java 17 for deploying Parabank
+      - name: Set up Java 17 for Parabank
         uses: actions/setup-java@v4
         with:
           distribution: 'corretto'
-          java-version: '11'
+          java-version: '17'
 
       - name: Deploy Docker Parabank
         run: |
@@ -38,6 +40,13 @@ jobs:
           
           echo "Parabank did not start within $MAX_WAIT seconds."
           exit 1
+
+      # Set Java 11 for running TESTAR
+      - name: Set up Java 11 for TESTAR
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'corretto'
+          java-version: '11'
 
       - name: Run TESTAR Action (webdriver_generic)
         uses: ferpasri/TESTAR_Action@main
