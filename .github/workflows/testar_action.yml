@@ -1,0 +1,49 @@
+name: Test TESTAR Action (webdriver_generic)
+
+on:
+  push:
+    branches: [ web ]
+  workflow_dispatch:
+
+jobs:
+  testar-web:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Java 11
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'corretto'
+          java-version: '11'
+
+      - name: Deploy Docker Parabank
+        run: |
+          chmod +x custom_docker_compile_and_deploy.sh
+          ./custom_docker_compile_and_deploy.sh
+
+      - name: Wait until Parabank web is ready
+        run: |
+          MAX_WAIT=120
+          INTERVAL=2
+          echo "Waiting for Parabank to be fully up and running..."
+          
+          for i in $(seq 1 $MAX_WAIT); do
+            if [ "$(curl -s -o /dev/null -w '%{http_code}' http://localhost:8080/parabank/)" -eq 200 ]; then
+              echo "Parabank is up and running."
+              exit 0
+            fi
+            sleep $INTERVAL
+          done
+          
+          echo "Parabank did not start within $MAX_WAIT seconds."
+          exit 1
+
+      - name: Run TESTAR Action (webdriver_generic)
+        uses: ferpasri/TESTAR_Action@main
+        with:
+          application_name: 'parabank'
+          sut: 'http://localhost:8080/parabank/'
+          sequences: '3'
+          sequence_length: '5'
+          suspicious_titles: '.[eE]rror.|.[eE]xcep[ct]ion.|.[iI]nvalid.'
