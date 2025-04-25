@@ -19,27 +19,34 @@ jobs:
           distribution: 'corretto'
           java-version: '17'
 
-      - name: Deploy Docker Parabank
-        run: |
-          chmod +x custom_docker_compile_and_deploy.sh
-          ./custom_docker_compile_and_deploy.sh
+      - name: Build the project with Maven
+        run: mvn -Dmaven.test.skip=true clean install
 
-      - name: Wait until Parabank web is ready
+      - name: Build Docker Image and Run Container
         run: |
-          MAX_WAIT=120
-          INTERVAL=1
-          echo "Waiting for Parabank to be fully up and running..."
-          
-          for i in $(seq 1 $MAX_WAIT); do
-            if [ "$(curl -s -o /dev/null -w '%{http_code}' http://localhost:8080/parabank/index.htm)" -eq 200 ]; then
-              echo "Parabank is up and running."
-              exit 0
+          docker build -t parabank-image .
+          docker run -d -p 8080:8080 --name parabank-container parabank-image
+
+      - name: Test app connection with curl
+        run: |
+          # Total wait time is 120 seconds, checking every 2 seconds
+          TIMEOUT=120
+          INTERVAL=2
+          START_TIME=$(date +%s)
+          while true; do
+            # Calculate elapsed time
+            ELAPSED_TIME=$(( $(date +%s) - START_TIME ))
+            # If we exceed the timeout, break out of the loop
+            if [ "$ELAPSED_TIME" -ge "$TIMEOUT" ]; then
+              echo "Timeout reached. Failed to connect to the app."
+              exit 1
             fi
+            echo "Waiting for parabank to be ready..."
+            # Try connecting using the container's IP address
+            curl -v http://172.17.0.2:8080/parabank/index.htm && break
+            # Wait for 2 seconds before retrying
             sleep $INTERVAL
           done
-          
-          echo "Parabank did not start within $MAX_WAIT seconds."
-          exit 1
 
       # Set Java 11 for running TESTAR
       - name: Set up Java 11 for TESTAR
@@ -52,7 +59,7 @@ jobs:
         uses: ferpasri/TESTAR_Action@main
         with:
           application_name: 'parabank'
-          sut: 'http://localhost:8080/parabank/'
+          sut: 'http://172.17.0.2:8080/parabank/'
           sequences: '3'
           sequence_length: '5'
           suspicious_titles: '.[eE]rror.|.[eE]xcep[ct]ion.|.[iI]nvalid.'
