@@ -2,64 +2,21 @@ name: Test TESTAR Action (webdriver_generic)
 
 on:
   push:
-    branches: [ web ]
+    branches: [ web-self-hosted ]
   workflow_dispatch:
 
 jobs:
   testar-web:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v4
-
-      # Set Java 17 for deploying Parabank
-      - name: Set up Java 17 for Parabank
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'corretto'
-          java-version: '17'
-
-      - name: Build the project with Maven
-        run: mvn -Dmaven.test.skip=true clean install
-
-      - name: Build Docker Image and Run Container
-        run: |
-          docker build -t parabank-image .
-          docker run -d -p 8080:8080 --name parabank-container parabank-image
-
-      - name: Test app connection with curl
-        run: |
-          # Total wait time is 120 seconds, checking every 2 seconds
-          TIMEOUT=120
-          INTERVAL=2
-          START_TIME=$(date +%s)
-          while true; do
-            # Calculate elapsed time
-            ELAPSED_TIME=$(( $(date +%s) - START_TIME ))
-            # If we exceed the timeout, break out of the loop
-            if [ "$ELAPSED_TIME" -ge "$TIMEOUT" ]; then
-              echo "Timeout reached. Failed to connect to the app."
-              exit 1
-            fi
-            echo "Waiting for parabank to be ready..."
-            # Try connecting using the container's IP address
-            curl -v http://172.17.0.2:8080/parabank/index.htm && break
-            # Wait for 2 seconds before retrying
-            sleep $INTERVAL
-          done
-
-      # Set Java 11 for running TESTAR
-      - name: Set up Java 11 for TESTAR
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'corretto'
-          java-version: '11'
 
       - name: Run TESTAR Action (webdriver_generic)
         uses: ferpasri/TESTAR_Action@main
         with:
           application_name: 'parabank'
-          sut: 'http://172.17.0.2:8080/parabank/'
+          sut: 'https://para.testar.org/parabank/'
           sequences: '3'
           sequence_length: '5'
           suspicious_titles: '.[eE]rror.|.[eE]xcep[ct]ion.|.[iI]nvalid.'
