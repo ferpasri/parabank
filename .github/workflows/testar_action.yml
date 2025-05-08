@@ -1,9 +1,8 @@
-name: Test TESTAR Action (webdriver_generic)
+name: TESTAR (02_webdriver_parabank)
 
 on:
   push:
-    branches: [ web-self-hosted ]
-  workflow_dispatch:
+    branches: [ protocol-self-hosted ]
 
 jobs:
   testar-web:
@@ -12,11 +11,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Run TESTAR Action (webdriver_generic)
-        uses: ferpasri/TESTAR_Action@windows
-        with:
-          application_name: 'parabank'
-          sut: 'https://para.testar.org/parabank/'
-          sequences: '3'
-          sequence_length: '5'
-          suspicious_titles: '.[eE]rror.|.[eE]xcep[ct]ion.|.[iI]nvalid.'
+    - name: Run TESTAR
+      shell: pwsh
+      run: |
+        $testarPath = "testar\bin"
+        Set-Location $testarPath
+        .\testar.bat `
+          sse=02_webdriver_parabank `
+          WebDomainsAllowed=null `
+          WebPathsAllowed=null `
+          ShowVisualSettingsDialogOnStartup=false `
+          FlashFeedback=false `
+          AlwaysCompile=true `
+          Mode=Generate `
+          ApplicationName='"parabank_ci"' `
+          SUTConnectorValue='" ""C:\\SeleniumWebDrivers\\ChromeDriver\\chromedriver.exe"" ""https://para.testar.org/"" "' `
+          Sequences=3 `
+          SequenceLength=5 `
+          SuspiciousTitles='"Invalid"'
+
+    - name: Upload TESTAR output results as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: testar-output-results
+        path: testar/bin/output
