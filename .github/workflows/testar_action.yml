@@ -34,4 +34,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: testar-output-results
-          path: testar/bin/output
+          path: C:/testar/bin/output
