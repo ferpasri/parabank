@@ -14,7 +14,7 @@ jobs:
       - name: Run TESTAR
         shell: pwsh
         run: |
-          $testarPath = "testar\bin"
+          $testarPath = "C:\testar\bin"
           Set-Location $testarPath
           .\testar.bat `
             sse=02_webdriver_parabank `
