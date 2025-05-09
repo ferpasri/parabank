@@ -68,6 +68,13 @@
                             text: account.id
                         }));
                     });
+                    <!-- Injected Failure: Duplicated items in select dropdown -->
+                    $.each(accounts, function(index, account) {
+                        $('#fromAccountId, #toAccountId').append($('<option>', {
+                            value: account.id,
+                            text: account.id
+                        }));
+                    });
                     $('#fromAccountId option:first-child').attr('selected', true);
                     $('#toAccountId option:first-child').attr('selected', true);
                     

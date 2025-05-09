@@ -79,6 +79,8 @@ $(document).ready(function() {
                             '</tr>';
                             
             $overviewTable.append(totalRow);
+            <!-- Injected Failure: Duplicated total entry in the table -->
+            $overviewTable.append(totalRow);
             
             $showOverview.show();
         },

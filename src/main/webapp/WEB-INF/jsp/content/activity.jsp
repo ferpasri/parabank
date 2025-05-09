@@ -89,7 +89,8 @@
         success: function(data) {
           $('#accountId').text(data.id);
           $('#accountType').text(data.type);
-          $('#balance').text(formatCurrency(data.balance));
+          <!-- Injected Failure: Decimal dollars number with more than 2 decimals -->
+          $('#balance').text((data.id == '13011' ? '$123.001' : formatCurrency(data.balance)));
           $('#availableBalance').text(formatCurrency(data.balance < 0 ? 0 : data.balance));
         },
         error: function(xhr, status, error) {
