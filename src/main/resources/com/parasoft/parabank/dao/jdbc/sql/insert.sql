@@ -1,18 +1,8 @@
 INSERT INTO Customer (id, first_name, last_name, address, city, state, zip_code, phone_number, ssn, username, password) VALUES (12212, 'John', 'Smith', '1431 Main St', 'Beverly Hills', 'CA', '90210', '310-447-4121', '622-11-9999', 'john', 'demo');
-INSERT INTO Customer (id, first_name, last_name, address, city, state, zip_code, phone_number, ssn, username, password) VALUES (12323, 'Bob', 'Parasoft', '101 E Huntington Dr', 'Monrovia', 'CA', '91016', '626-256-3680', '123-45-6789', 'parasoft', 'demo');
 
-INSERT INTO Account (id, customer_id, type, balance) VALUES (12345, 12212, 0, -2300.00);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (12456, 12212, 0,    10.45);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (12567, 12212, 0,   100.00);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (12678, 12212, 1,  -100.00);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (12789, 12212, 0,   100.00);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (12900, 12212, 0,     0.00);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (13011, 12212, 0,   100.00);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (13122, 12212, 0,  1100.00);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (13233, 12212, 0,   100.00);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (13344, 12212, 1,  1231.10);
+INSERT INTO Account (id, customer_id, type, balance) VALUES (12345, 12212, 0, -500.00);
+INSERT INTO Account (id, customer_id, type, balance) VALUES (13011, 12212, 0,   1000.00);
 INSERT INTO Account (id, customer_id, type, balance) VALUES (54321, 12212, 0,  1351.12);
-INSERT INTO Account (id, customer_id, type, balance) VALUES (13455, 12323, 0,  2014.76);
 
 INSERT INTO Positions (position_id, customer_id, name, symbol, shares, purchase_price) VALUES (12345, 12212, 'AMR Corporation', 'AAR', 20, '23.53');
 INSERT INTO Positions (position_id, customer_id, name, symbol, shares, purchase_price) VALUES (12346, 12212, 'General Cable Corporation', 'BGC', 10, '44.68');
@@ -43,25 +33,14 @@ INSERT INTO Sequence (name, next_id) VALUES ('Stock', 111);
 
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (12145, 12345, 0, CONCAT(YEAR(CURRENT_DATE - '1' YEAR),'-12-11'),  300.00, 'Check # 1111');
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (12256, 12345, 1, CONCAT(YEAR(CURRENT_DATE - '1' YEAR),'-12-12'),  100.00, 'Check # 1211');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (12367, 12678, 1, CURRENT_DATE - '15' DAY ,  100.00, 'Funds Transfer Sent');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (12478, 12789, 0, CURRENT_DATE - '15' DAY ,  100.00, 'Funds Transfer Received');
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (12589, 12345, 1, CURRENT_DATE - '15' DAY , 1000.00, 'Funds Transfer Sent');
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (12700, 54321, 0, CURRENT_DATE - '15' DAY , 1000.00, 'Funds Transfer Received');
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (12811, 54321, 1, CURRENT_DATE - '15' DAY ,  100.00, 'Funds Transfer Sent');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (12922, 12900, 0, CURRENT_DATE - '15' DAY ,  100.00, 'Funds Transfer Received');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (13033, 12900, 1, CURRENT_DATE - '15' DAY ,  100.00, 'Funds Transfer Sent');
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (13144, 13011, 0, CURRENT_DATE - '15' DAY ,  100.00, 'Funds Transfer Received');
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (13255, 12345, 1, CURRENT_DATE - '11' DAY ,  100.00, 'Funds Transfer Sent');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (13366, 13122, 0, CURRENT_DATE - '11' DAY ,  100.00, 'Funds Transfer Received');
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (13477, 12345, 1, CURRENT_DATE - '11' DAY , 1000.00, 'Funds Transfer Sent');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (13588, 13122, 0, CURRENT_DATE - '11' DAY , 1000.00, 'Funds Transfer Received');
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (13699, 12345, 1, CURRENT_DATE - '10' DAY ,    0.00, 'Funds Transfer Sent');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (13810, 13122, 1, CURRENT_DATE - '10' DAY ,    0.00, 'Funds Transfer Received');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (13921, 12678, 1, CURRENT_DATE - '8'  DAY ,  100.00, 'Funds Transfer Sent');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (14032, 13233, 1, CURRENT_DATE - '8'  DAY ,  100.00, 'Funds Transfer Received');
 INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (14143, 13011, 1, CURRENT_DATE - '8'  DAY , 1000.00, 'Bill Payment to Bank of America Visa');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (14254, 13344, 1, CURRENT_DATE - '3'  DAY , 1000.00, 'Funds Transfer Sent');
-INSERT INTO Transaction (id, account_id, type, date, amount, description) VALUES (14365, 13344, 1, CURRENT_DATE - '3'  DAY , 1000.00, 'Funds Transfer Received');
 
 INSERT INTO Company (symbol, name) VALUES ('AAR', 'AMR Corporation');
 INSERT INTO Company (symbol, name) VALUES ('BGC', 'General Cable Corporation');
