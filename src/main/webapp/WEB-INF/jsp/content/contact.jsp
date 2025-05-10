@@ -3,7 +3,8 @@
 
 <h1 class="title"><fmt:message key="customer.care"/></h1>
 
-<p><fmt:message key="email.support.is.available"/></p>
+<!-- Injected Failure: Widget clash between menu title and list elements -->
+<p style="position: relative; top: -20px;"><fmt:message key="email.support.is.available"/></p>
 
 <form:form method="post" action="contact.htm" modelAttribute="contactForm">
   <table class="form2" >

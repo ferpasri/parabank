@@ -1,8 +1,7 @@
 <%@ include file="include.jsp" %>
 
 <ul>
-  <!-- Injected Failure: Widget clash between menu title and list elements -->
-  <li><a href="<c:url value='openaccount.htm'/>" style="position: relative; top: -5px;"><fmt:message key="open.new.account"/></a></li>
+  <li><a href="<c:url value='openaccount.htm'/>"><fmt:message key="open.new.account"/></a></li>
   <li><a href="<c:url value="overview.htm"/>"><fmt:message key="accounts.overview"/></a></li>
   <li><a href="<c:url value="transfer.htm"/>"><fmt:message key="transfer.funds"/></a></li>
   <li><a href="<c:url value="billpay.htm"/>"><fmt:message key="bill.pay"/></a></li>
