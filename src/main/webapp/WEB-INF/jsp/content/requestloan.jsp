@@ -102,41 +102,44 @@
 		}
 		
 		var submit = function() {
-			var url = 'services_proxy/bank/requestLoan?customerId=${customerId}&amount=' + $("#amount").val() + '&downPayment=' + $("#downPayment").val() + '&fromAccountId=' + $("#fromAccountId").val();
-			$.ajax({
-				url: url,
-				type: 'POST',
-				success: function(response) {
-					showForm(false);
-					showResult(true);
-					$("#loanProviderName").html(response.loanProviderName);
-					$("#responseDate").html(format(new Date(response.responseDate)));
-					$("#loanStatus").html(response.approved ? '<fmt:message key="loan.approved"/>' : '<fmt:message key="loan.denied"/>');
-					if (response.approved)  {
-						$("#loanRequestApproved").show();
-					} else {
-						$("#loanRequestDenied").show();					
-					}
-					$("#newAccountId").attr("href", "${pageContext.request.contextPath}/activity.htm?id=" + response.accountId).text(response.accountId);
-					if (response.message === 'error.insufficient.funds.for.down.payment') {
-						$('#loanRequestDenied p.error').html('<fmt:message key="error.insufficient.funds.for.down.payment"/>');
-					}
-		            if (response.message === 'error.insufficient.funds.and.down.payment') {
-			            $('#loanRequestDenied p.error').html('<fmt:message key="error.insufficient.funds.and.down.payment"/>');
-		            }
-		            if (response.message === 'error.insufficient.funds') {
-			            $('#loanRequestDenied p.error').html('<fmt:message key="error.insufficient.funds"/>');
-		            }
-		            if (response.message === 'error.insufficient.down.payment') {
-			            $('#loanRequestDenied p.error').html('<fmt:message key="error.insufficient.down.payment"/>');
-		            }
-				},
-				error: function(response) {
-					showForm(false);
-					showResult(false);
-					$("#requestLoanError").show();
-				}
-			})
+			var amount = parseFloat($("#amount").val());
+			var response = {};
+
+			// Fake response logic
+			if (amount < 10000) {
+				response = {
+					loanProviderName: "Parabank Loans",
+					responseDate: new Date().toISOString(),
+					approved: true,
+					accountId: $("#fromAccountId").val(),
+					message: "Congratulations, your loan has been approved."
+				};
+			} else {
+				response = {
+					loanProviderName: "Parabank Loans",
+					responseDate: new Date().toISOString(),
+					approved: false,
+					accountId: $("#fromAccountId").val(),
+					message: "error.insufficient.funds"
+				};
+			}
+
+			// Simulate handling the response
+			showForm(false);
+			showResult(true);
+			$("#loanProviderName").html(response.loanProviderName);
+			$("#responseDate").html(format(new Date(response.responseDate)));
+			$("#loanStatus").html(response.approved ? '<fmt:message key="loan.approved"/>' : '<fmt:message key="loan.denied"/>');
+			if (response.approved) {
+				$("#loanRequestApproved").show();
+			} else {
+				$("#loanRequestDenied").show();					
+			}
+			$("#newAccountId").attr("href", "${pageContext.request.contextPath}/activity.htm?id=" + response.accountId).text(response.accountId);
+
+			if (response.message === 'error.insufficient.funds') {
+				$('#loanRequestDenied p.error').html('<fmt:message key="error.insufficient.funds"/>');
+			}
 		}
 		
 		$("input[type=button]").click(() => {
