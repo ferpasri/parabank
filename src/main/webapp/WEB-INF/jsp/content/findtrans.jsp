@@ -21,22 +21,6 @@
 			<hr />
 
 			<div>
-				<b><fmt:message key="find.by.transaction.id" /></b>: <input
-					id="transactionId" class="input" /> <span id="transactionIdError"
-					class="error"></span>
-			</div>
-
-			<br />
-
-			<div>
-				<button type="submit" class="button" id="findById">
-					<fmt:message key="find.transactions" />
-				</button>
-			</div>
-
-			<hr />
-
-			<div>
 				<b><fmt:message key="find.by.date" /></b>: <input id="transactionDate"
 					class="input" /> (
 				<fmt:message key="date.format" />
@@ -47,31 +31,7 @@
 
 			<div>
 				<button type="submit" class="button" id="findByDate">
-					<fmt:message key="find.transactions" />
-				</button>
-			</div>
-
-			<hr />
-
-			<div>
-				<p>
-					<b><fmt:message key="find.by.date.range" /></b>
-				</p>
-				<div>
-					<fmt:message key="between" />
-					<input id="fromDate" class="input" />
-					<fmt:message key="and" />
-					<input id="toDate" class="input" /> (
-					<fmt:message key="date.format" />
-					) <span id="dateRangeError" class="error"></span>
-				</div>
-			</div>
-
-			<br />
-
-			<div>
-				<button type="submit" class="button" id="findByDateRange">
-					<fmt:message key="find.transactions" />
+					Find Transaction By Date
 				</button>
 			</div>
 
@@ -86,7 +46,7 @@
 
 			<div>
 				<button type="submit" class="button" id="findByAmount">
-					<fmt:message key="find.transactions" />
+					Find Transaction By Amount
 				</button>
 			</div>
 
