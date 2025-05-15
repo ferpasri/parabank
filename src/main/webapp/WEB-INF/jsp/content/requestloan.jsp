@@ -105,23 +105,38 @@
 			var amount = parseFloat($("#amount").val());
 			var response = {};
 
-			// Fake response logic
-			if (amount < 10000) {
+			// Check for invalid input (NaN or negative)
+			if (isNaN(amount) || amount < 0) {
 				response = {
-					loanProviderName: "Parabank Loans",
-					responseDate: new Date().toISOString(),
-					approved: true,
-					accountId: $("#fromAccountId").val(),
-					message: "Congratulations, your loan has been approved."
+					message: "invalid.data"
 				};
 			} else {
-				response = {
-					loanProviderName: "Parabank Loans",
-					responseDate: new Date().toISOString(),
-					approved: false,
-					accountId: $("#fromAccountId").val(),
-					message: "error.insufficient.funds"
-				};
+				// Fake response logic
+				if (amount < 10000) {
+					response = {
+						loanProviderName: "Parabank Loans",
+						responseDate: new Date().toISOString(),
+						approved: true,
+						accountId: $("#fromAccountId").val(),
+						message: "Congratulations, your loan has been approved."
+					};
+				} else {
+					response = {
+						loanProviderName: "Parabank Loans",
+						responseDate: new Date().toISOString(),
+						approved: false,
+						accountId: $("#fromAccountId").val(),
+						message: "error.insufficient.funds"
+					};
+				}
+			}
+
+			// Simulate handling the response
+			if (response.message === 'invalid.data') {
+				showForm(false);
+				showResult(false);
+				$("#requestLoanError").show();
+				return; // Stop further execution
 			}
 
 			// Simulate handling the response
